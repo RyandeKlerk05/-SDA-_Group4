@@ -10,8 +10,8 @@ This is the Github page for the Scientific Data Analysis group project.
    - You can click on the files and folders to view the documents.
    - By clicking on the EDIT button, you can make changes to the file. Once you are done
      finish by clicking 'commit changes' and enter a short message explaining your changes.
-   - On the main repo page, you can make new files, or upload from you pc directly to the repo.
-     Afterwards, you just need to leave a commit message.
+   - On the main repo page, you can click on the 'add file' button to make new files, or upload
+     from you pc directly to the repo. Afterwards, you just need to leave a commit message.
   
 3. Tech support:
    - If there are any issues with editing/uploading files, try to contact Ryan on telegram.
