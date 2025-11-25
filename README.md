@@ -12,7 +12,7 @@ This is the Github page for the Scientific Data Analysis group project.
     - **Experiments**: The code used for processing and plotting the data.
          - (tests): Test code to make sure functions behave as expected. 
     - **Plots**: The visual results from our experiments.
-    -** Presentation**: All the stuff necessary for the final presentation (like conclusions, presentation points and poster).
+    - **Presentation**: All the stuff necessary for the final presentation (like conclusions, presentation points and poster).
    
 
 4. How to run the code / imports:
