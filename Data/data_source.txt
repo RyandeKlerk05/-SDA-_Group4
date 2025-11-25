@@ -1,0 +1,5 @@
+This file shows the orgins of the datasets used in the project:
+   - age_socialmedia_mentalhealth.csv: "https://www.kaggle.com/code/syedanwarafridi/mental-health-trends-in-the-age-of-social-media/"
+      - Used for subquestions 1 and 2.
+      - Shows the relation between different age groups, their use of social media and their experience with mental health problems.
+      - The mental health statistics are rated between 1 and 5 stars, thus it might not be the most detailed data.
