@@ -1,4 +1,5 @@
 country_urls = {
+    "new": "blabla",
     "Abkhazia": "https://datareportal.com/reports/digital-2021-abkhazia",
     "Afghanistan": "https://datareportal.com/reports/digital-2021-afghanistan",
     "Aland Islands": "https://datareportal.com/reports/digital-2021-aland-islands",
@@ -13,7 +14,7 @@ country_urls = {
     "Armenia": "https://datareportal.com/reports/digital-2021-armenia",
     "Aruba": "https://datareportal.com/reports/digital-2021-aruba",
     "Australia": "https://datareportal.com/reports/digital-2021-australia",
-    "Azerbajian": "https://datareportal.com/reports/digital-2021-azerbajian",
+    "Azerbajian": "https://datareportal.com/reports/digital-2021-azerbaijan",
     "Bahamas": "https://datareportal.com/reports/digital-2021-bahamas",
     "Bahrain": "https://datareportal.com/reports/digital-2021-bahrain",
     "Bangladesh": "https://datareportal.com/reports/digital-2021-bangladesh",

@@ -7,13 +7,10 @@ worldwide media usage.
 # import pymupdf4llm  # API interface: extracting as Markdown, JSON or TXT.
 
 from bs4 import BeautifulSoup
-import string
 import requests
 from websites import country_urls
 
 amount_str = ['hundred', 'thousand', 'million']  # hundred can be removed?
-
-url = 'https://datareportal.com/reports/digital-2021-netherlands'
 
 
 MULTIPLIERS = {
@@ -23,78 +20,92 @@ MULTIPLIERS = {
 }
 
 def get_soup(url):
-    html = requests.get(url).text
-    soup = BeautifulSoup(html, "html.parser")
-    return soup
+    try:
+        html = requests.get(url).text
+        soup = BeautifulSoup(html, "html.parser")
+        return soup
+    except:
+        print('Invalid ULR')
+        return None
+
 
 
 def extract_population(soup):
     '''Extracts a country's population given a soup.
     '''
 
+    if not soup:
+        print('Invalid soup')
+        return None
+
     for bold in soup.find_all('b'):
-        bold_text = bold.get_text()
+        bold_text = bold.get_text(" ").lower().strip()
+
+        # Skip bolds with no digits
+        if not any(c.isdigit() for c in bold_text):
+            continue
+
         sentence = bold.parent.get_text(" ").lower()
 
-        if 'had a population of' in sentence:  # hardcode, might change it to just 'population'
-            parts = bold.get_text(" ").split()
-            number = float(parts[0])
-            tenth_power = 1
+        if 'population' in sentence:
+            splitted_text = bold_text.split()
 
-            if len(parts) > 1:
-                power = parts[1]
-                tenth_power = MULTIPLIERS[power]
+            number = float(splitted_text[0].replace(',', '.'))
 
-            return int(number * tenth_power)
+            if len(splitted_text) > 1 and splitted_text[1] in MULTIPLIERS:
+
+                number *= MULTIPLIERS[splitted_text[1]]
+            else:
+                number *= 1000  # value is smaller than 10000
+
+        return int(number)
 
     return None
-
-
-def get_float_in_sentence(splitted_sentence):
-    for idx in range(len(splitted_sentence)):
-        if not float(splitted_sentence[idx]):
-            continue
-        else:
-            return idx
-    return None
-
-
 
 
 def extract_number_social_media_users(soup):
     '''
     Extracts number of social media users given a soup.
-
-    >>> extract_number_social_media_users('https://datareportal.com/reports/digital-2021-netherlands', 'social media users')
-
-    >>> webscrape_one_country('https://datareportal.com/reports/digital-2021-netherlands', 'blablabla')
-    None
     '''
 
+    if not soup:
+        print('Invalid soup')
+        return None
+
     for bold in soup.find_all("b"):
-        bold_text = bold.text.lower()
-        correct = 'thousand' in bold_text or 'million' in bold_text or 'billion' in bold_text
+        bold_text = bold.get_text(" ").lower().strip()
 
-        if correct and 'social media users' in bold.next_sibling:
-            splitted_text = bold_text.split()  # first value is integer
-            number = float(splitted_text[0])
-            power = splitted_text[1]
-            tenth_power = 1
+        # Skip bolds with no digits
+        if not any(c.isdigit() for c in bold_text):
+            continue
 
-            if len(splitted_text) > 1:
-                tenth_power = MULTIPLIERS[power]
+        sibling = bold.next_sibling
 
-            number *= tenth_power
-            return int(number)
+        if not sibling or 'social media users' not in bold.next_sibling:
+            continue
+
+        splitted_text = bold_text.split()  # first value is integer
+        number = float(splitted_text[0].replace(',', '.'))
+
+        if len(splitted_text) > 1 and splitted_text[1] in MULTIPLIERS:
+            number *= MULTIPLIERS[splitted_text[1]]
+        else:
+            number *= 1000  # value is smaller than 10000
+
+        return int(number)
 
     return None
 
 
-def get_ratio_social_media_users(total: int, social_media_users: int):
+def get_ratio_social_media_users(total, social_media_users):
     '''Returns ratio between number of social media users in a country
         and the total population.
         Returns: value between 0 and 1.
     '''
+
+    if not social_media_users or not total:
+        return None
+
     return social_media_users / total
 
 
@@ -103,13 +114,41 @@ def tests():
     assert extract_number_social_media_users(soup) == 15100000
     assert extract_population(soup) == 17150000
 
+    soup2 = get_soup('https://datareportal.com/reports/digital-2021-christmas-island')
+    assert extract_number_social_media_users(soup2) == 1200
+    assert extract_population(soup2) == 1843
+
+
 
 # tests()  # Assertion check
-soup = get_soup('https://datareportal.com/reports/digital-2021-netherlands')
-users = extract_number_social_media_users(soup)
 
-total = extract_population(soup)
+def get_all_ratios(country_urls):
+    ratios = {}
+    trash =  {}
+    for country in country_urls.keys():
+        url = country_urls[country]
 
-print(get_ratio_social_media_users(total, users))
+        soup = get_soup(url)
 
+        if not soup:
+            trash[country] = url
+            print(f'Trash: {country}, url = {url}')
+            continue
 
+        total = extract_population(soup)
+        users = extract_number_social_media_users(soup)
+        print(f'Country: {country}, total: {total}, social media users: {users}, ratio: {ratio}')
+
+        ratio = get_ratio_social_media_users(total, users)
+
+        if not ratio:
+            trash[country] = url
+            print(f'Trash: {country}, url = {url}')
+            continue
+
+        ratios[country] = ratio
+    # return ratios
+
+# tests()
+
+get_all_ratios(country_urls)
