@@ -119,7 +119,6 @@ def tests():
     assert extract_population(soup2) == 1843
 
 
-
 # tests()  # Assertion check
 
 def get_all_ratios(country_urls):
@@ -136,7 +135,7 @@ def get_all_ratios(country_urls):
 
         if not soup:
             trash[country] = url
-            print(f'Trash soup: {country}, url = {url}')
+            # print(f'Trash soup: {country}, url = {url}')
             continue
 
         total = extract_population(soup)
@@ -148,13 +147,13 @@ def get_all_ratios(country_urls):
             trash[country] = url
             continue
 
-        print(f'Country: {country}, total: {total}, social media users: {users}, ratio: {ratio}')
+        print(f'Country: {country}, total: {total}, social media users: {users}, ratio: {ratio}\n')
 
         ratios[country] = ratio
     # return ratios
 
     for trash_country in trash.keys():
-        print(f'Trash ratio: {trash_country}, url = {trash[trash_country]}')
+        print(f'Trash: {trash_country}, url = {trash[trash_country]}')
 
 
 # tests()
