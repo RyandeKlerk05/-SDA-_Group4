@@ -25,7 +25,7 @@ def get_soup(url):
         soup = BeautifulSoup(html, "html.parser")
         return soup
     except:
-        print('Invalid ULR')
+        # print('Invalid URL')
         return None
 
 
@@ -126,28 +126,36 @@ def get_all_ratios(country_urls):
     ratios = {}
     trash =  {}
     for country in country_urls.keys():
+
+        if len(trash.keys()) >= 10:
+            print("Too much trash: check urls")
+            break
         url = country_urls[country]
 
         soup = get_soup(url)
 
         if not soup:
             trash[country] = url
-            print(f'Trash: {country}, url = {url}')
+            print(f'Trash soup: {country}, url = {url}')
             continue
 
         total = extract_population(soup)
         users = extract_number_social_media_users(soup)
-        print(f'Country: {country}, total: {total}, social media users: {users}, ratio: {ratio}')
 
         ratio = get_ratio_social_media_users(total, users)
 
         if not ratio:
             trash[country] = url
-            print(f'Trash: {country}, url = {url}')
             continue
+
+        print(f'Country: {country}, total: {total}, social media users: {users}, ratio: {ratio}')
 
         ratios[country] = ratio
     # return ratios
+
+    for trash_country in trash.keys():
+        print(f'Trash ratio: {trash_country}, url = {trash[trash_country]}')
+
 
 # tests()
 

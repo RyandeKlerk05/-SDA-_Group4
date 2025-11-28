@@ -1,5 +1,5 @@
 country_urls = {
-    "new": "blabla",
+    # "new": "blabla",
     "Abkhazia": "https://datareportal.com/reports/digital-2021-abkhazia",
     "Afghanistan": "https://datareportal.com/reports/digital-2021-afghanistan",
     "Aland Islands": "https://datareportal.com/reports/digital-2021-aland-islands",
