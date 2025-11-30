@@ -1,5 +1,4 @@
-country_urls = {
-    # "new": "blabla",
+country_urls2021 = {
     "Abkhazia": "https://datareportal.com/reports/digital-2021-abkhazia",
     "Afghanistan": "https://datareportal.com/reports/digital-2021-afghanistan",
     "Aland Islands": "https://datareportal.com/reports/digital-2021-aland-islands",
@@ -26,7 +25,7 @@ country_urls = {
     "Bermuda": "https://datareportal.com/reports/digital-2021-bermuda",
     "Bhutan": "https://datareportal.com/reports/digital-2021-bhutan",
     "Bolivia": "https://datareportal.com/reports/digital-2021-bolivia",
-    "Bonaire, ST. Eaustatius & Saba": "",  # 2021 data does not exists for this country
+    "Bonaire, ST. Eaustatius & Saba": "https://datareportal.com/reports/digital-2021-bonaire-sint-eustatius-and-saba",  # 2021 data does not exists for this country
     "Bosnia & Herzegovina": "https://datareportal.com/reports/digital-2021-bosnia-and-herzegovina",
     "Botswana": "https://datareportal.com/reports/digital-2021-botswana",
     "Brazil": "https://datareportal.com/reports/digital-2021-brazil",
