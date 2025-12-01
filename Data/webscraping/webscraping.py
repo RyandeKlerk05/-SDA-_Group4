@@ -266,7 +266,7 @@ def store_in_csv(ratios: dict, file_as_str):
     '''
     with open(file_as_str, 'w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(['Country', "Population Growth (%), Social Media Users Growth (%)"])
+        writer.writerow(['Country', 'Population Growth (%)', 'Social Media Users Growth (%)'])
 
         for country, values in ratios.items():
             writer.writerow([country, values[0], values[1]])
