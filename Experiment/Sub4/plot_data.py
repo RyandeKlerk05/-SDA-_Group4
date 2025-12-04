@@ -8,7 +8,6 @@
     as their x-coordinate and their growth in social media users within a year.
     Each data point will have a specific colour, based on their continent.
 
-    
 
 '''
 
