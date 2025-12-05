@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
+import pandas as pd
 
 from collect_data import load_data
 
@@ -19,6 +20,54 @@ def plot_platform_freq(platform_freq):
     plt.xlabel("Platform")
     plt.ylabel("Frequency")
     plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.show()
+
+
+def plot_SM_use(data):
+    """ Plots a barchart of the daily social media usage per age group. """
+
+    # Set the time order.
+    sm_time_order = [
+        "Less than an Hour",
+        "Between 1 and 2 hours",
+        "Between 2 and 3 hours",
+        "Between 3 and 4 hours",
+        "Between 4 and 5 hours",
+        "More than 5 hours"
+    ]
+
+    data["SM_Time"] = pd.Categorical(
+        data["SM_Time"],
+        categories=sm_time_order,
+        ordered=True
+    )
+
+    # Split the data into age groups.
+    bins = [0, 18, 25, 35, 50, 100]
+    labels = ["<18", "18-25", "25-35", "35-50", "50+"]
+    data["Age_Group"] = pd.cut(data["Age"], bins=bins,
+                               labels=labels, right=False)
+
+    # Calculate the frequencies of each age group.
+    freq_table = (
+        data.groupby(["SM_Time", "Age_Group"], observed=True)
+        .size()
+        .unstack(fill_value=0)
+    )
+
+    # Plot the bar chart.
+    freq_table.plot(
+        kind="bar",
+        stacked=True,
+        figsize=(10, 6),
+    )
+
+    plt.title("Social Media Usage Time by Age Group")
+    plt.xlabel("Daily Social Media Usage (SM_Time)")
+    plt.ylabel("Frequency")
+    plt.xticks(rotation=45, ha="right")
+    plt.legend(title="Age Group")
     plt.tight_layout()
     plt.show()
 
@@ -48,10 +97,12 @@ def plot_MH_score(data):
     plt.grid(True)
     plt.tight_layout()
 
+    # Calculate the x-steps of the plot.
     age_min = int(data['Age'].min())
     age_max = int(data['Age'].max())
     plt.xticks(range(age_min - age_min % 5, age_max + 5, 5))
 
+    # Plots the points.
     legend_elements = [
         Line2D([0], [0], marker='o', color='w', label='Male',
                markerfacecolor='blue', markersize=10),
@@ -68,4 +119,5 @@ def plot_MH_score(data):
 if __name__ == "__main__":
     data, platform_freq = load_data()
     plot_platform_freq(platform_freq)
+    plot_SM_use(data)
     plot_MH_score(data)
