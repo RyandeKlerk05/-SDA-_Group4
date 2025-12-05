@@ -1,3 +1,4 @@
+# USA and UK check 
 country_urls2021 = {
     "Abkhazia": "https://datareportal.com/reports/digital-2021-abkhazia",
     "Afghanistan": "https://datareportal.com/reports/digital-2021-afghanistan",
@@ -231,8 +232,8 @@ country_urls2021 = {
     "Uganda": "https://datareportal.com/reports/digital-2021-uganda",
     "Ukraine": "https://datareportal.com/reports/digital-2021-ukraine",
     "U.A.E.": "https://datareportal.com/reports/digital-2021-united-arab-emirates",
-    "U.K.": "https://datareportal.com/reports/digital-2021-united-kingdom",
-    "U.S.A.": "https://datareportal.com/reports/digital-2021-united-states-of-america",
+    "United Kingdom.": "https://datareportal.com/reports/digital-2021-united-kingdom",
+    "United States of America": "https://datareportal.com/reports/digital-2021-united-states-of-america",
     "U.S. Virgin Is.": "https://datareportal.com/reports/digital-2021-united-states-virgin-islands",
     "Uruguay": "https://datareportal.com/reports/digital-2021-uruguay",
     "Uzbekistan": "https://datareportal.com/reports/digital-2021-uzbekistan",

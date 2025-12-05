@@ -2,6 +2,8 @@
 This file uses webscraping to distract data from the URLs that describe
 worldwide media usage.
 
+CHECK USA and UK 
+
 '''
 
 # import pymupdf.layout  # Uses layout to extract data
@@ -304,6 +306,27 @@ def main():
     store_in_csv(ratios, '../ratios_countries_social_media.csv')
 
 
+def store_users_in_csv(country_urls, file_as_str):
+    '''
+    Stores the specific number of social media users in
+    '''
+
+    with open(file_as_str, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Country', 'Social Media Users (N)'])
+
+        for country, url in country_urls.items():
+            soup = get_soup(url)
+            num_users = extract_number_social_media_users(soup)
+            writer.writerow([country, num_users])
+
+    print('Wrote countries to ratios_countries_social_media.csv successfully')
+
 if __name__ == "__main__":
     # tests()  # Comment this out to prove it works
-    main()  # If you just want to use test(), make this entire line a comment
+
+    # main(): Run line below for getting ratios.
+    # main()  # If you just want to use test(), make this entire line a comment
+
+    # Run line below for getting the exact values of number of social media users
+    store_users_in_csv(country_urls2021, '../social_media_users_2021.csv')
