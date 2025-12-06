@@ -1,0 +1,409 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+DALYs (Disability-Adjusted Life Years),Norway,Both,All ages,Mental disorders,Rate,2020,2314.377163722418,3003.9110169298606,1688.2949525597724
+DALYs (Disability-Adjusted Life Years),Taiwan,Both,All ages,Mental disorders,Rate,2020,1615.777069548114,2071.1422567686545,1177.0823681805798
+DALYs (Disability-Adjusted Life Years),Kyrgyzstan,Both,All ages,Mental disorders,Rate,2020,1549.7097970855962,2066.069212545647,1104.9825771974013
+DALYs (Disability-Adjusted Life Years),Bangladesh,Both,All ages,Mental disorders,Rate,2020,2023.8556322494205,2690.435889686934,1453.1360546681728
+DALYs (Disability-Adjusted Life Years),Republic of Moldova,Both,All ages,Mental disorders,Rate,2020,1904.4632759145477,2492.800961818756,1393.5236263652796
+DALYs (Disability-Adjusted Life Years),Eswatini,Both,All ages,Mental disorders,Rate,2020,1894.853380133641,2548.8080103084285,1362.6789223824
+DALYs (Disability-Adjusted Life Years),Puerto Rico,Both,All ages,Mental disorders,Rate,2020,2676.1505515062113,3484.5151513828228,1975.5870297921863
+DALYs (Disability-Adjusted Life Years),Iraq,Both,All ages,Mental disorders,Rate,2020,2221.541780265878,2938.222657057133,1553.000528643935
+DALYs (Disability-Adjusted Life Years),United States of America,Both,All ages,Mental disorders,Rate,2021,2542.6844107571155,3287.987074084712,1920.598947880636
+DALYs (Disability-Adjusted Life Years),Finland,Both,All ages,Mental disorders,Rate,2020,1998.7083905513718,2549.5236198687708,1474.3052544053073
+DALYs (Disability-Adjusted Life Years),Belize,Both,All ages,Mental disorders,Rate,2020,2273.8464799787816,3010.270601261674,1617.8892973136092
+DALYs (Disability-Adjusted Life Years),Bermuda,Both,All ages,Mental disorders,Rate,2020,2466.7280511949252,3237.7330703044154,1797.4009168528496
+DALYs (Disability-Adjusted Life Years),Zimbabwe,Both,All ages,Mental disorders,Rate,2021,1761.9825305005745,2409.5485679305657,1244.4349107900234
+DALYs (Disability-Adjusted Life Years),Japan,Both,All ages,Mental disorders,Rate,2021,1978.871831818144,2517.1800251880377,1488.4879997353958
+DALYs (Disability-Adjusted Life Years),Slovenia,Both,All ages,Mental disorders,Rate,2021,2034.5759429951659,2673.8640690727098,1506.243127101645
+DALYs (Disability-Adjusted Life Years),Papua New Guinea,Both,All ages,Mental disorders,Rate,2020,1540.3742222597507,2091.277761894043,1091.688633484826
+DALYs (Disability-Adjusted Life Years),Maldives,Both,All ages,Mental disorders,Rate,2020,1456.1303407352489,1850.7768087657341,1071.8259925509824
+DALYs (Disability-Adjusted Life Years),Viet Nam,Both,All ages,Mental disorders,Rate,2021,1339.2710810878982,1720.673033810602,976.4579970338904
+DALYs (Disability-Adjusted Life Years),Haiti,Both,All ages,Mental disorders,Rate,2020,2190.985004934288,2930.0809748307165,1567.4259092297207
+DALYs (Disability-Adjusted Life Years),Mongolia,Both,All ages,Mental disorders,Rate,2021,1683.9389818368386,2237.00672818694,1189.7256965028666
+DALYs (Disability-Adjusted Life Years),Andorra,Both,All ages,Mental disorders,Rate,2020,2647.118324336602,3378.9333701457986,1940.4653064672543
+DALYs (Disability-Adjusted Life Years),Israel,Both,All ages,Mental disorders,Rate,2020,2360.453801820474,3108.8893935059355,1691.2569774956553
+DALYs (Disability-Adjusted Life Years),Republic of Korea,Both,All ages,Mental disorders,Rate,2020,1943.79462715705,2435.897590151279,1467.5482694497443
+DALYs (Disability-Adjusted Life Years),Palestine,Both,All ages,Mental disorders,Rate,2021,2229.6559845372726,2880.8362591809664,1597.5434568237772
+DALYs (Disability-Adjusted Life Years),Türkiye,Both,All ages,Mental disorders,Rate,2021,2286.6566133746687,2982.7711260923306,1679.239428617659
+DALYs (Disability-Adjusted Life Years),Panama,Both,All ages,Mental disorders,Rate,2020,1921.1908875248546,2503.221280179107,1399.9101164825001
+DALYs (Disability-Adjusted Life Years),Ethiopia,Both,All ages,Mental disorders,Rate,2020,1933.9095556372674,2575.4713340779667,1384.8975732201382
+DALYs (Disability-Adjusted Life Years),Oman,Both,All ages,Mental disorders,Rate,2020,2085.521452399335,2678.403036516102,1521.994390232943
+DALYs (Disability-Adjusted Life Years),Gabon,Both,All ages,Mental disorders,Rate,2021,2279.7452710359944,3100.8697232265085,1587.1936273114882
+DALYs (Disability-Adjusted Life Years),Bosnia and Herzegovina,Both,All ages,Mental disorders,Rate,2021,2005.038968739006,2651.8774183296237,1462.3707457264816
+DALYs (Disability-Adjusted Life Years),Monaco,Both,All ages,Mental disorders,Rate,2020,2551.969345537289,3276.5285896117607,1874.2803908206981
+DALYs (Disability-Adjusted Life Years),Guinea-Bissau,Both,All ages,Mental disorders,Rate,2021,1877.2606380289883,2561.1218479545614,1365.4773009604385
+DALYs (Disability-Adjusted Life Years),Montenegro,Both,All ages,Mental disorders,Rate,2020,2014.5712559035069,2645.7469622327008,1473.3694197050354
+DALYs (Disability-Adjusted Life Years),Cabo Verde,Both,All ages,Mental disorders,Rate,2021,2133.88898923104,2867.035900043916,1530.8371557433848
+DALYs (Disability-Adjusted Life Years),Jordan,Both,All ages,Mental disorders,Rate,2021,2243.4207194072756,2897.5890136905796,1616.4853556597081
+DALYs (Disability-Adjusted Life Years),Argentina,Both,All ages,Mental disorders,Rate,2021,2656.810012768404,3580.9870128658645,1867.9509512475322
+DALYs (Disability-Adjusted Life Years),Liberia,Both,All ages,Mental disorders,Rate,2020,2085.4658905245687,2813.56227475815,1506.9389203121368
+DALYs (Disability-Adjusted Life Years),Cuba,Both,All ages,Mental disorders,Rate,2021,2522.3926963093145,3341.3018720641135,1855.0909327649786
+DALYs (Disability-Adjusted Life Years),Myanmar,Both,All ages,Mental disorders,Rate,2021,1465.6203200588775,1874.7391005853278,1073.2640844316127
+DALYs (Disability-Adjusted Life Years),Samoa,Both,All ages,Mental disorders,Rate,2020,1582.1148960162284,2157.568352068326,1120.8578479619393
+DALYs (Disability-Adjusted Life Years),El Salvador,Both,All ages,Mental disorders,Rate,2020,2019.0280305720016,2678.679204362611,1457.0447574973655
+DALYs (Disability-Adjusted Life Years),Costa Rica,Both,All ages,Mental disorders,Rate,2021,2212.060569419693,2914.677778365057,1627.5139273288598
+DALYs (Disability-Adjusted Life Years),Cambodia,Both,All ages,Mental disorders,Rate,2020,1459.2119747593472,1894.0680271751796,1059.147208495672
+DALYs (Disability-Adjusted Life Years),Azerbaijan,Both,All ages,Mental disorders,Rate,2020,1871.8397791414195,2452.930067862083,1333.1098167062878
+DALYs (Disability-Adjusted Life Years),Portugal,Both,All ages,Mental disorders,Rate,2021,3074.557404075641,4045.927363833378,2245.3707202236064
+DALYs (Disability-Adjusted Life Years),Armenia,Both,All ages,Mental disorders,Rate,2021,2201.8523575451804,2932.7403488008595,1570.5932803166802
+DALYs (Disability-Adjusted Life Years),Tajikistan,Both,All ages,Mental disorders,Rate,2020,1603.8014415961377,2132.4719555449656,1139.3571820931065
+DALYs (Disability-Adjusted Life Years),Dominica,Both,All ages,Mental disorders,Rate,2020,2302.897156697666,3029.7014191330095,1671.334475406657
+DALYs (Disability-Adjusted Life Years),Spain,Both,All ages,Mental disorders,Rate,2020,2503.023885274405,3257.124301944604,1845.0257329511674
+DALYs (Disability-Adjusted Life Years),Bhutan,Both,All ages,Mental disorders,Rate,2021,1748.6606996857258,2314.7334657847296,1288.5775109312924
+DALYs (Disability-Adjusted Life Years),Ukraine,Both,All ages,Mental disorders,Rate,2020,2257.3751868994013,2963.811863605177,1653.9598293757888
+DALYs (Disability-Adjusted Life Years),Chile,Both,All ages,Mental disorders,Rate,2020,2817.9844531873614,3793.2158046362047,1991.467483505606
+DALYs (Disability-Adjusted Life Years),Bulgaria,Both,All ages,Mental disorders,Rate,2020,1790.7197646112973,2315.1098248385433,1329.2447956901813
+DALYs (Disability-Adjusted Life Years),Russian Federation,Both,All ages,Mental disorders,Rate,2021,1875.5751765497653,2446.9932123084827,1370.720861535858
+DALYs (Disability-Adjusted Life Years),Greenland,Both,All ages,Mental disorders,Rate,2020,2656.6907609404952,3490.4747982589265,1947.5882412479846
+DALYs (Disability-Adjusted Life Years),San Marino,Both,All ages,Mental disorders,Rate,2020,2632.03960322324,3380.760050805496,1947.9747931646384
+DALYs (Disability-Adjusted Life Years),Zambia,Both,All ages,Mental disorders,Rate,2020,1747.0904959848078,2327.704747807201,1242.3712153371544
+DALYs (Disability-Adjusted Life Years),Venezuela (Bolivarian Republic of),Both,All ages,Mental disorders,Rate,2021,2280.097568791249,3058.3210019137537,1664.9818651804974
+DALYs (Disability-Adjusted Life Years),Bolivia (Plurinational State of),Both,All ages,Mental disorders,Rate,2020,2327.009968235708,3120.578582666128,1652.336968584978
+DALYs (Disability-Adjusted Life Years),Kenya,Both,All ages,Mental disorders,Rate,2021,1723.391471564603,2245.074730598307,1233.7122322528967
+DALYs (Disability-Adjusted Life Years),Turkmenistan,Both,All ages,Mental disorders,Rate,2021,1655.982990013863,2196.0919784156786,1183.393628779722
+DALYs (Disability-Adjusted Life Years),Kiribati,Both,All ages,Mental disorders,Rate,2020,1721.6818231309817,2346.151872778702,1233.41852009996
+DALYs (Disability-Adjusted Life Years),Poland,Both,All ages,Mental disorders,Rate,2021,1777.714194779794,2275.1945895030053,1315.410076829339
+DALYs (Disability-Adjusted Life Years),Italy,Both,All ages,Mental disorders,Rate,2021,2115.4228729344204,2743.991355841742,1560.1934713574399
+DALYs (Disability-Adjusted Life Years),United Arab Emirates,Both,All ages,Mental disorders,Rate,2020,2280.096633890125,2924.0598247347834,1664.2178269646645
+DALYs (Disability-Adjusted Life Years),Seychelles,Both,All ages,Mental disorders,Rate,2021,1487.0666839547987,1908.4450410751765,1102.6776178341015
+DALYs (Disability-Adjusted Life Years),Kuwait,Both,All ages,Mental disorders,Rate,2020,2268.120085650217,2890.724080189504,1675.155818083696
+DALYs (Disability-Adjusted Life Years),Benin,Both,All ages,Mental disorders,Rate,2021,2000.3433476413281,2727.266376072271,1440.9026363360492
+DALYs (Disability-Adjusted Life Years),Senegal,Both,All ages,Mental disorders,Rate,2021,1910.1401443262362,2599.550525428528,1364.7554606185104
+DALYs (Disability-Adjusted Life Years),Saint Lucia,Both,All ages,Mental disorders,Rate,2020,2360.822117982575,3116.715083368861,1711.0521061491877
+DALYs (Disability-Adjusted Life Years),Ecuador,Both,All ages,Mental disorders,Rate,2021,2303.7288620965883,3098.1665664388815,1633.5150932618399
+DALYs (Disability-Adjusted Life Years),Fiji,Both,All ages,Mental disorders,Rate,2021,1682.056110187012,2273.407704747927,1221.4120897424477
+DALYs (Disability-Adjusted Life Years),France,Both,All ages,Mental disorders,Rate,2021,2571.9432183482804,3362.1964169916996,1904.5652124395554
+DALYs (Disability-Adjusted Life Years),Saint Kitts and Nevis,Both,All ages,Mental disorders,Rate,2021,2416.0215509114582,3226.036875942264,1760.9238304808316
+DALYs (Disability-Adjusted Life Years),Jamaica,Both,All ages,Mental disorders,Rate,2021,2375.7646863145487,3169.3418387879356,1722.0438565540724
+DALYs (Disability-Adjusted Life Years),Indonesia,Both,All ages,Mental disorders,Rate,2021,1423.0407640397639,1855.3480578114713,1037.0002010761648
+DALYs (Disability-Adjusted Life Years),Antigua and Barbuda,Both,All ages,Mental disorders,Rate,2020,2447.6457955634996,3255.1864784473237,1783.9021811446944
+DALYs (Disability-Adjusted Life Years),Dominican Republic,Both,All ages,Mental disorders,Rate,2020,2542.0795122796235,3399.6225620957603,1811.1573723894887
+DALYs (Disability-Adjusted Life Years),Belarus,Both,All ages,Mental disorders,Rate,2021,1809.497574550066,2338.653363373762,1306.5625979070276
+DALYs (Disability-Adjusted Life Years),Sao Tome and Principe,Both,All ages,Mental disorders,Rate,2020,2043.9070697964262,2772.2450597531383,1485.2539382678701
+DALYs (Disability-Adjusted Life Years),Luxembourg,Both,All ages,Mental disorders,Rate,2020,2550.897638727716,3260.9788775661996,1867.0343868136492
+DALYs (Disability-Adjusted Life Years),Algeria,Both,All ages,Mental disorders,Rate,2021,2136.3024983100368,2720.2438444227405,1564.6154242904904
+DALYs (Disability-Adjusted Life Years),Burundi,Both,All ages,Mental disorders,Rate,2021,1718.5238876642136,2259.0445361652,1228.6869809741233
+DALYs (Disability-Adjusted Life Years),India,Both,All ages,Mental disorders,Rate,2020,1931.3167660097267,2524.134058895348,1411.222383886502
+DALYs (Disability-Adjusted Life Years),Croatia,Both,All ages,Mental disorders,Rate,2021,2004.0433135722735,2632.994468918986,1469.8515836214574
+DALYs (Disability-Adjusted Life Years),South Sudan,Both,All ages,Mental disorders,Rate,2020,1917.089220399979,2524.7789940796683,1378.9603481035715
+DALYs (Disability-Adjusted Life Years),Austria,Both,All ages,Mental disorders,Rate,2021,2125.673824210246,2736.239642883413,1580.8822344011871
+DALYs (Disability-Adjusted Life Years),Qatar,Both,All ages,Mental disorders,Rate,2021,2110.085817417568,2701.8441695064676,1557.556974537938
+DALYs (Disability-Adjusted Life Years),Yemen,Both,All ages,Mental disorders,Rate,2021,1993.060580305418,2554.03333432185,1428.6232050038052
+DALYs (Disability-Adjusted Life Years),Angola,Both,All ages,Mental disorders,Rate,2021,2250.090160640963,3101.2712505347768,1563.9632504647107
+DALYs (Disability-Adjusted Life Years),Cook Islands,Both,All ages,Mental disorders,Rate,2021,1806.7120331076774,2447.976652276373,1304.8112931361068
+DALYs (Disability-Adjusted Life Years),Kazakhstan,Both,All ages,Mental disorders,Rate,2020,1509.8471980453983,1990.9408975550136,1087.057000081157
+DALYs (Disability-Adjusted Life Years),Philippines,Both,All ages,Mental disorders,Rate,2020,1404.0522912034867,1814.150461386567,1017.8022778023925
+DALYs (Disability-Adjusted Life Years),Singapore,Both,All ages,Mental disorders,Rate,2020,1745.3416905034828,2190.1809685721933,1314.0505613916253
+DALYs (Disability-Adjusted Life Years),Romania,Both,All ages,Mental disorders,Rate,2020,1758.2624028743332,2293.953572717219,1287.6238071122223
+DALYs (Disability-Adjusted Life Years),Germany,Both,All ages,Mental disorders,Rate,2020,2260.1742093420153,2871.5368061076074,1693.8000977404881
+DALYs (Disability-Adjusted Life Years),China,Both,All ages,Mental disorders,Rate,2021,1764.642273274742,2288.96418571208,1316.7510836673619
+DALYs (Disability-Adjusted Life Years),Switzerland,Both,All ages,Mental disorders,Rate,2020,2779.639474555272,3639.429685848029,2051.703329177236
+DALYs (Disability-Adjusted Life Years),Saudi Arabia,Both,All ages,Mental disorders,Rate,2020,2422.0685637181364,3179.1395907199226,1727.5429759355632
+DALYs (Disability-Adjusted Life Years),Nauru,Both,All ages,Mental disorders,Rate,2021,1662.4198734182648,2292.5381861478118,1166.0690184759546
+DALYs (Disability-Adjusted Life Years),Niue,Both,All ages,Mental disorders,Rate,2020,1755.0953548882048,2345.5725310737635,1281.0797801497718
+DALYs (Disability-Adjusted Life Years),Rwanda,Both,All ages,Mental disorders,Rate,2020,1761.491187416804,2304.518308087557,1268.5996485768812
+DALYs (Disability-Adjusted Life Years),Honduras,Both,All ages,Mental disorders,Rate,2020,1953.6502860621408,2602.075585109763,1406.2551705307603
+DALYs (Disability-Adjusted Life Years),Sri Lanka,Both,All ages,Mental disorders,Rate,2021,1480.6244609454614,1914.3898282646715,1088.2372529586607
+DALYs (Disability-Adjusted Life Years),Uruguay,Both,All ages,Mental disorders,Rate,2021,2554.922023866427,3410.8840549720244,1822.5668593390735
+DALYs (Disability-Adjusted Life Years),Nepal,Both,All ages,Mental disorders,Rate,2021,1722.3531982564682,2277.775093254676,1281.1128679719493
+DALYs (Disability-Adjusted Life Years),Solomon Islands,Both,All ages,Mental disorders,Rate,2021,1728.5522879188477,2381.8345533756233,1220.486323053217
+DALYs (Disability-Adjusted Life Years),Sierra Leone,Both,All ages,Mental disorders,Rate,2020,2063.305704294008,2774.859747949361,1492.914990338429
+DALYs (Disability-Adjusted Life Years),Madagascar,Both,All ages,Mental disorders,Rate,2021,1767.5367562971087,2347.871998620431,1263.4057896294494
+DALYs (Disability-Adjusted Life Years),Bahrain,Both,All ages,Mental disorders,Rate,2020,2333.2610303914257,2978.8915126358306,1699.9811758427657
+DALYs (Disability-Adjusted Life Years),Chad,Both,All ages,Mental disorders,Rate,2020,2147.7479037741728,2958.3194492342914,1564.3339314570153
+DALYs (Disability-Adjusted Life Years),Lesotho,Both,All ages,Mental disorders,Rate,2021,1819.152201547997,2452.2607182650113,1288.5511254881815
+DALYs (Disability-Adjusted Life Years),Estonia,Both,All ages,Mental disorders,Rate,2020,1760.647859963285,2281.1016942048514,1286.9039197100578
+DALYs (Disability-Adjusted Life Years),Sweden,Both,All ages,Mental disorders,Rate,2021,2382.6415030595304,3077.0326674564812,1774.2435738707845
+DALYs (Disability-Adjusted Life Years),Mauritania,Both,All ages,Mental disorders,Rate,2020,1757.6515951534473,2417.049985433959,1270.2266801166468
+DALYs (Disability-Adjusted Life Years),Bahamas,Both,All ages,Mental disorders,Rate,2021,2537.676002275967,3371.886824410027,1830.0655331665903
+DALYs (Disability-Adjusted Life Years),Lao People's Democratic Republic,Both,All ages,Mental disorders,Rate,2020,1297.8292580027337,1682.4903555948686,938.8199569931002
+DALYs (Disability-Adjusted Life Years),Peru,Both,All ages,Mental disorders,Rate,2020,2481.4212806370965,3254.10772303252,1794.2489610840516
+DALYs (Disability-Adjusted Life Years),Greece,Both,All ages,Mental disorders,Rate,2021,2864.7890743937696,3773.822302527156,2109.2949259322368
+DALYs (Disability-Adjusted Life Years),Belgium,Both,All ages,Mental disorders,Rate,2020,2435.814159877999,3149.2386350042234,1787.14466694926
+DALYs (Disability-Adjusted Life Years),Mali,Both,All ages,Mental disorders,Rate,2021,1860.2961368339456,2565.2514046848514,1343.9944299511058
+DALYs (Disability-Adjusted Life Years),Czechia,Both,All ages,Mental disorders,Rate,2020,1970.3815046428788,2563.9504891888528,1431.075717017048
+DALYs (Disability-Adjusted Life Years),Brazil,Both,All ages,Mental disorders,Rate,2021,2860.448271962449,3810.9024752574214,2107.9908454553897
+DALYs (Disability-Adjusted Life Years),Malta,Both,All ages,Mental disorders,Rate,2021,2648.8222652448876,3445.097916681644,1936.3099713929855
+DALYs (Disability-Adjusted Life Years),Guatemala,Both,All ages,Mental disorders,Rate,2021,2166.2167349087504,2898.8105334273087,1557.048327953005
+DALYs (Disability-Adjusted Life Years),Comoros,Both,All ages,Mental disorders,Rate,2020,1962.8568624391544,2585.84017364497,1418.0057083429253
+DALYs (Disability-Adjusted Life Years),Togo,Both,All ages,Mental disorders,Rate,2021,2410.4637767151094,3403.820842203317,1658.37870537421
+DALYs (Disability-Adjusted Life Years),Tonga,Both,All ages,Mental disorders,Rate,2020,1967.1043805123086,2959.723472273636,1337.0771755892893
+DALYs (Disability-Adjusted Life Years),Georgia,Both,All ages,Mental disorders,Rate,2021,1935.6238874900203,2512.559750133034,1410.5321377290782
+DALYs (Disability-Adjusted Life Years),Botswana,Both,All ages,Mental disorders,Rate,2020,1809.8241378703515,2403.5458100260967,1297.7021026312004
+DALYs (Disability-Adjusted Life Years),Marshall Islands,Both,All ages,Mental disorders,Rate,2021,1694.266697869444,2327.831429685145,1201.2149028656843
+DALYs (Disability-Adjusted Life Years),Tuvalu,Both,All ages,Mental disorders,Rate,2020,1656.787341017813,2263.109247879299,1175.9478939552916
+DALYs (Disability-Adjusted Life Years),Latvia,Both,All ages,Mental disorders,Rate,2021,1850.990407002156,2396.950651179853,1359.5932212689843
+DALYs (Disability-Adjusted Life Years),Egypt,Both,All ages,Mental disorders,Rate,2021,2211.2821029019315,2969.1282766045183,1568.1538340714508
+DALYs (Disability-Adjusted Life Years),Slovakia,Both,All ages,Mental disorders,Rate,2020,1822.9979857029268,2375.4094311341714,1321.8869556144614
+DALYs (Disability-Adjusted Life Years),Guyana,Both,All ages,Mental disorders,Rate,2020,2191.511400852061,2904.129252100265,1575.36308953753
+DALYs (Disability-Adjusted Life Years),Tokelau,Both,All ages,Mental disorders,Rate,2021,1793.4739780594618,2439.3951221081265,1298.3400703999305
+DALYs (Disability-Adjusted Life Years),Palau,Both,All ages,Mental disorders,Rate,2020,1812.6651068757826,2420.16385726095,1309.7969423423158
+DALYs (Disability-Adjusted Life Years),Suriname,Both,All ages,Mental disorders,Rate,2020,2189.5234322067777,2899.061859215868,1589.8498718551361
+DALYs (Disability-Adjusted Life Years),Uganda,Both,All ages,Mental disorders,Rate,2020,1664.2251371109064,2205.500057265443,1201.4679611591189
+DALYs (Disability-Adjusted Life Years),Democratic People's Republic of Korea,Both,All ages,Mental disorders,Rate,2020,1744.7141393380375,2291.283650780873,1270.9998523708628
+DALYs (Disability-Adjusted Life Years),Serbia,Both,All ages,Mental disorders,Rate,2021,2042.9372213618037,2691.367563692008,1484.9868140661663
+DALYs (Disability-Adjusted Life Years),Saint Vincent and the Grenadines,Both,All ages,Mental disorders,Rate,2021,2287.9483266122425,3023.1942982491228,1663.9390928324797
+DALYs (Disability-Adjusted Life Years),Thailand,Both,All ages,Mental disorders,Rate,2020,1361.4282501394719,1735.5751875883896,992.9955381796904
+DALYs (Disability-Adjusted Life Years),Burkina Faso,Both,All ages,Mental disorders,Rate,2020,2009.7654706612313,2726.8887283102604,1459.9174924639185
+DALYs (Disability-Adjusted Life Years),Iceland,Both,All ages,Mental disorders,Rate,2021,2664.779754151796,3427.1277864290155,1963.7416842315124
+DALYs (Disability-Adjusted Life Years),Uzbekistan,Both,All ages,Mental disorders,Rate,2021,1537.8650208811464,2043.3929938692509,1097.2530136999508
+DALYs (Disability-Adjusted Life Years),Congo,Both,All ages,Mental disorders,Rate,2021,2230.982002641202,3000.41656005715,1559.8963640150935
+DALYs (Disability-Adjusted Life Years),Central African Republic,Both,All ages,Mental disorders,Rate,2020,2174.4738463347876,2960.489429029609,1522.1684378786813
+DALYs (Disability-Adjusted Life Years),Lebanon,Both,All ages,Mental disorders,Rate,2021,2657.4905329765543,3563.2734003419014,1949.647354801996
+DALYs (Disability-Adjusted Life Years),Djibouti,Both,All ages,Mental disorders,Rate,2021,1827.9465972818543,2404.8166139549726,1315.5917800688976
+DALYs (Disability-Adjusted Life Years),Libya,Both,All ages,Mental disorders,Rate,2020,2367.5972460487937,3056.482328262006,1736.7302106138607
+DALYs (Disability-Adjusted Life Years),Slovenia,Both,All ages,Mental disorders,Rate,2020,2036.7503104075583,2670.7964314840174,1504.9307472513578
+DALYs (Disability-Adjusted Life Years),Afghanistan,Both,All ages,Mental disorders,Rate,2020,1989.3856576852365,2615.0320174187855,1417.2032803362401
+DALYs (Disability-Adjusted Life Years),Micronesia (Federated States of),Both,All ages,Mental disorders,Rate,2020,1685.69135892055,2303.302447786801,1204.5432099814873
+DALYs (Disability-Adjusted Life Years),United Republic of Tanzania,Both,All ages,Mental disorders,Rate,2021,1642.2067083492145,2165.0258181955683,1204.0250253916263
+DALYs (Disability-Adjusted Life Years),Sudan,Both,All ages,Mental disorders,Rate,2021,2149.3133839851416,2777.4356253170363,1536.578428923785
+DALYs (Disability-Adjusted Life Years),Paraguay,Both,All ages,Mental disorders,Rate,2020,2336.482172515213,3120.42741892018,1695.0382191484432
+DALYs (Disability-Adjusted Life Years),Côte d'Ivoire,Both,All ages,Mental disorders,Rate,2021,2017.7056925628476,2727.2278028140922,1442.287835399321
+DALYs (Disability-Adjusted Life Years),Niger,Both,All ages,Mental disorders,Rate,2021,1767.4127389490982,2428.865629012173,1270.7486546974253
+DALYs (Disability-Adjusted Life Years),Gambia,Both,All ages,Mental disorders,Rate,2020,1964.271440136254,2657.7437554160842,1403.971646411503
+DALYs (Disability-Adjusted Life Years),Barbados,Both,All ages,Mental disorders,Rate,2020,2375.9614594273316,3132.5255747723504,1723.6072949298975
+DALYs (Disability-Adjusted Life Years),American Samoa,Both,All ages,Mental disorders,Rate,2020,1726.0892450196247,2346.294927376942,1237.4854710772117
+DALYs (Disability-Adjusted Life Years),Guam,Both,All ages,Mental disorders,Rate,2021,1821.3253704502083,2459.919614856389,1310.753476090597
+DALYs (Disability-Adjusted Life Years),Senegal,Both,All ages,Mental disorders,Rate,2020,1863.3805137187376,2551.344079093824,1344.1877432688973
+DALYs (Disability-Adjusted Life Years),Taiwan,Both,All ages,Mental disorders,Rate,2021,1611.7924987913902,2075.659516706781,1185.888437953025
+DALYs (Disability-Adjusted Life Years),Pakistan,Both,All ages,Mental disorders,Rate,2020,1835.7619993405856,2434.929531372379,1334.7513220330998
+DALYs (Disability-Adjusted Life Years),Namibia,Both,All ages,Mental disorders,Rate,2020,1692.0717240690094,2260.436961832445,1209.9041071190566
+DALYs (Disability-Adjusted Life Years),Netherlands,Both,All ages,Mental disorders,Rate,2020,3303.1998936405953,4285.928287272684,2483.1321694084763
+DALYs (Disability-Adjusted Life Years),United States of America,Both,All ages,Mental disorders,Rate,2020,2546.8165040138097,3295.878185985457,1919.6336931915646
+DALYs (Disability-Adjusted Life Years),Cameroon,Both,All ages,Mental disorders,Rate,2021,2016.5736676197112,2737.118964486525,1447.7534272488672
+DALYs (Disability-Adjusted Life Years),Cyprus,Both,All ages,Mental disorders,Rate,2021,2598.741872553786,3361.353990593165,1886.9927462492171
+DALYs (Disability-Adjusted Life Years),Malawi,Both,All ages,Mental disorders,Rate,2020,1726.0381013926622,2290.801415024584,1232.9527819272892
+DALYs (Disability-Adjusted Life Years),Hungary,Both,All ages,Mental disorders,Rate,2021,1931.2141990780622,2497.559327075717,1442.411241836743
+DALYs (Disability-Adjusted Life Years),Mongolia,Both,All ages,Mental disorders,Rate,2020,1631.4823867689631,2154.4929917394293,1155.7143875276824
+DALYs (Disability-Adjusted Life Years),Puerto Rico,Both,All ages,Mental disorders,Rate,2021,2711.8124654844964,3535.6455179606687,2004.9426127707104
+DALYs (Disability-Adjusted Life Years),Iraq,Both,All ages,Mental disorders,Rate,2021,2201.8535089488305,2919.761540113993,1556.0358249244978
+DALYs (Disability-Adjusted Life Years),Nicaragua,Both,All ages,Mental disorders,Rate,2020,2023.403405947525,2697.276899845051,1467.167922741027
+DALYs (Disability-Adjusted Life Years),Belize,Both,All ages,Mental disorders,Rate,2021,2349.110135636316,3138.908768491611,1684.3566863843785
+DALYs (Disability-Adjusted Life Years),United States Virgin Islands,Both,All ages,Mental disorders,Rate,2021,2257.6977526850055,2953.1389379260136,1672.002654102194
+DALYs (Disability-Adjusted Life Years),Timor-Leste,Both,All ages,Mental disorders,Rate,2021,1307.6362481148572,1696.7592104474093,957.77916566234
+DALYs (Disability-Adjusted Life Years),Ireland,Both,All ages,Mental disorders,Rate,2020,2651.719227974249,3443.0292866001932,1940.3323912513874
+DALYs (Disability-Adjusted Life Years),Iran (Islamic Republic of),Both,All ages,Mental disorders,Rate,2020,2950.400028823325,3916.0062346216896,2195.6620892876504
+DALYs (Disability-Adjusted Life Years),Grenada,Both,All ages,Mental disorders,Rate,2021,2366.4519491693763,3150.4352969806846,1716.8771502822685
+DALYs (Disability-Adjusted Life Years),Mauritius,Both,All ages,Mental disorders,Rate,2021,1851.3612340971229,2453.3444394858448,1340.392554111963
+DALYs (Disability-Adjusted Life Years),Lithuania,Both,All ages,Mental disorders,Rate,2020,1999.1237914779886,2661.5500713541724,1440.7013700346313
+DALYs (Disability-Adjusted Life Years),Australia,Both,All ages,Mental disorders,Rate,2020,3053.367298879055,3922.4782013169124,2270.0176645708257
+DALYs (Disability-Adjusted Life Years),Brunei Darussalam,Both,All ages,Mental disorders,Rate,2021,2053.779290530852,2646.9588817965096,1520.1889647063654
+DALYs (Disability-Adjusted Life Years),Eritrea,Both,All ages,Mental disorders,Rate,2020,1760.4770270112003,2334.6514906899442,1270.153255612071
+DALYs (Disability-Adjusted Life Years),Malaysia,Both,All ages,Mental disorders,Rate,2020,1599.5038717999767,2035.8107703005592,1183.095662093679
+DALYs (Disability-Adjusted Life Years),Nigeria,Both,All ages,Mental disorders,Rate,2020,2005.2032783718532,2758.2073525566443,1421.9891000275863
+DALYs (Disability-Adjusted Life Years),Somalia,Both,All ages,Mental disorders,Rate,2020,1555.8204483689242,2056.4261110515936,1112.4167270308603
+DALYs (Disability-Adjusted Life Years),United Kingdom,Both,All ages,Mental disorders,Rate,2021,3203.4683838543356,4197.260704654547,2357.90905117353
+DALYs (Disability-Adjusted Life Years),Vanuatu,Both,All ages,Mental disorders,Rate,2021,1623.6188324221864,2227.86527423753,1141.5708719494892
+DALYs (Disability-Adjusted Life Years),Northern Mariana Islands,Both,All ages,Mental disorders,Rate,2021,1858.4876261787522,2504.40235060859,1352.8624432771255
+DALYs (Disability-Adjusted Life Years),Japan,Both,All ages,Mental disorders,Rate,2020,1899.8505139043516,2392.5687353824674,1422.8577297828488
+DALYs (Disability-Adjusted Life Years),Canada,Both,All ages,Mental disorders,Rate,2021,2257.271171518716,2929.0718336619807,1656.5929022357054
+DALYs (Disability-Adjusted Life Years),Mexico,Both,All ages,Mental disorders,Rate,2021,2183.258385525105,2887.6828405819515,1599.3559690161703
+DALYs (Disability-Adjusted Life Years),Denmark,Both,All ages,Mental disorders,Rate,2020,2273.0519629899377,2910.051079653097,1690.5282690771419
+DALYs (Disability-Adjusted Life Years),North Macedonia,Both,All ages,Mental disorders,Rate,2020,1878.0680604623763,2452.1855310352953,1387.6115100897382
+DALYs (Disability-Adjusted Life Years),Viet Nam,Both,All ages,Mental disorders,Rate,2020,1289.10088813567,1639.7255006471444,937.9690845076472
+DALYs (Disability-Adjusted Life Years),Bosnia and Herzegovina,Both,All ages,Mental disorders,Rate,2020,1985.9336343497712,2600.421771785585,1451.6537672736058
+DALYs (Disability-Adjusted Life Years),Papua New Guinea,Both,All ages,Mental disorders,Rate,2021,1652.2681423641347,2264.486713605517,1170.498609646807
+DALYs (Disability-Adjusted Life Years),Belarus,Both,All ages,Mental disorders,Rate,2020,1783.8891497410373,2312.1504551824105,1289.0419683711814
+DALYs (Disability-Adjusted Life Years),South Africa,Both,All ages,Mental disorders,Rate,2020,1988.6505758858214,2642.825328294115,1457.6665258269456
+DALYs (Disability-Adjusted Life Years),Jamaica,Both,All ages,Mental disorders,Rate,2020,2298.6260590641314,3040.829015062075,1649.3914706058652
+DALYs (Disability-Adjusted Life Years),Armenia,Both,All ages,Mental disorders,Rate,2020,2217.4119566874897,2943.39699309524,1578.5073617910725
+DALYs (Disability-Adjusted Life Years),Syrian Arab Republic,Both,All ages,Mental disorders,Rate,2020,3026.967978604741,4081.7917440376564,2147.118430338885
+DALYs (Disability-Adjusted Life Years),Morocco,Both,All ages,Mental disorders,Rate,2021,2242.156303507916,2871.4138114752345,1646.9001416862495
+DALYs (Disability-Adjusted Life Years),Liberia,Both,All ages,Mental disorders,Rate,2021,2098.687349949729,2842.364290614789,1516.8659525808782
+DALYs (Disability-Adjusted Life Years),Republic of Moldova,Both,All ages,Mental disorders,Rate,2021,1942.3549068290754,2563.075514709453,1401.7480054932162
+DALYs (Disability-Adjusted Life Years),Israel,Both,All ages,Mental disorders,Rate,2021,2389.624075906107,3159.005556828487,1719.1229966569074
+DALYs (Disability-Adjusted Life Years),Togo,Both,All ages,Mental disorders,Rate,2020,2382.116245068345,3366.1020473878802,1657.871027722514
+DALYs (Disability-Adjusted Life Years),Nauru,Both,All ages,Mental disorders,Rate,2020,1608.4647373545351,2199.885241138439,1134.9008318102376
+DALYs (Disability-Adjusted Life Years),Turkmenistan,Both,All ages,Mental disorders,Rate,2020,1670.4401083187363,2212.3745715053387,1189.3803963387545
+DALYs (Disability-Adjusted Life Years),Norway,Both,All ages,Mental disorders,Rate,2021,2339.899036275131,3038.15314874057,1709.863443627805
+DALYs (Disability-Adjusted Life Years),Equatorial Guinea,Both,All ages,Mental disorders,Rate,2021,2151.245848131614,2927.2217727855013,1508.2947369453404
+DALYs (Disability-Adjusted Life Years),Bhutan,Both,All ages,Mental disorders,Rate,2020,1778.6704775060991,2345.6787597262064,1294.8869221825585
+DALYs (Disability-Adjusted Life Years),Maldives,Both,All ages,Mental disorders,Rate,2021,1497.096990056157,1907.8828221137412,1107.1837232759412
+DALYs (Disability-Adjusted Life Years),New Zealand,Both,All ages,Mental disorders,Rate,2021,2775.066368582444,3630.3330738962204,2039.5062843023222
+DALYs (Disability-Adjusted Life Years),Monaco,Both,All ages,Mental disorders,Rate,2021,2578.726798687434,3327.6678528722186,1894.71884625546
+DALYs (Disability-Adjusted Life Years),Dominica,Both,All ages,Mental disorders,Rate,2021,2360.32426727757,3130.0788045245895,1715.7096899537385
+DALYs (Disability-Adjusted Life Years),Costa Rica,Both,All ages,Mental disorders,Rate,2020,2164.1830352548727,2845.273112711153,1579.506069707257
+DALYs (Disability-Adjusted Life Years),Palestine,Both,All ages,Mental disorders,Rate,2020,2167.450491195538,2820.370235823182,1575.8896629236804
+DALYs (Disability-Adjusted Life Years),Zambia,Both,All ages,Mental disorders,Rate,2021,1810.5889329199647,2417.0666047847094,1286.0661191517288
+DALYs (Disability-Adjusted Life Years),Central African Republic,Both,All ages,Mental disorders,Rate,2021,2200.476504279894,3040.553336558111,1515.152781080101
+DALYs (Disability-Adjusted Life Years),Chad,Both,All ages,Mental disorders,Rate,2021,2069.10861422211,2840.634428149957,1492.7835483421695
+DALYs (Disability-Adjusted Life Years),Sao Tome and Principe,Both,All ages,Mental disorders,Rate,2021,2068.8435243316226,2790.7295177500237,1475.4902547507181
+DALYs (Disability-Adjusted Life Years),Ethiopia,Both,All ages,Mental disorders,Rate,2021,1991.4019706399004,2679.174296853527,1433.7540030890657
+DALYs (Disability-Adjusted Life Years),Finland,Both,All ages,Mental disorders,Rate,2021,1992.4151022250564,2553.62188804202,1472.1386114788438
+DALYs (Disability-Adjusted Life Years),Kuwait,Both,All ages,Mental disorders,Rate,2021,2287.2382721777967,2884.858146697526,1695.5566353569468
+DALYs (Disability-Adjusted Life Years),Argentina,Both,All ages,Mental disorders,Rate,2020,2591.852205973635,3492.1256385490415,1829.4536888404714
+DALYs (Disability-Adjusted Life Years),Rwanda,Both,All ages,Mental disorders,Rate,2021,1855.804609110537,2442.127834107018,1338.249732174732
+DALYs (Disability-Adjusted Life Years),Ghana,Both,All ages,Mental disorders,Rate,2021,2062.65253884527,2781.109104506675,1469.1872351712377
+DALYs (Disability-Adjusted Life Years),Cook Islands,Both,All ages,Mental disorders,Rate,2020,1763.645509442564,2369.0411051605724,1282.4588010488458
+DALYs (Disability-Adjusted Life Years),Kyrgyzstan,Both,All ages,Mental disorders,Rate,2021,1603.367079110494,2132.610630832676,1143.7093022927118
+DALYs (Disability-Adjusted Life Years),Russian Federation,Both,All ages,Mental disorders,Rate,2020,1856.12568572854,2408.9007794200356,1355.0442409777013
+DALYs (Disability-Adjusted Life Years),Bermuda,Both,All ages,Mental disorders,Rate,2021,2503.3151044356105,3279.020492008983,1847.8527209826325
+DALYs (Disability-Adjusted Life Years),Democratic Republic of the Congo,Both,All ages,Mental disorders,Rate,2020,2052.523252975039,2790.8560215822818,1445.3113883040203
+DALYs (Disability-Adjusted Life Years),Cuba,Both,All ages,Mental disorders,Rate,2020,2462.503369331044,3265.7099436102794,1798.0444142665795
+DALYs (Disability-Adjusted Life Years),Cambodia,Both,All ages,Mental disorders,Rate,2021,1517.22556217811,1958.7239781885053,1100.2958186611208
+DALYs (Disability-Adjusted Life Years),Eswatini,Both,All ages,Mental disorders,Rate,2021,1934.6468444850038,2587.9943838411764,1376.2939593037281
+DALYs (Disability-Adjusted Life Years),Mozambique,Both,All ages,Mental disorders,Rate,2020,1758.3275228555951,2332.842392317887,1265.5421632124762
+DALYs (Disability-Adjusted Life Years),Saint Kitts and Nevis,Both,All ages,Mental disorders,Rate,2020,2371.2069958900065,3145.5541407357623,1713.8773213383654
+DALYs (Disability-Adjusted Life Years),Bangladesh,Both,All ages,Mental disorders,Rate,2021,2083.2784696610393,2771.9745183721443,1488.3916088950768
+DALYs (Disability-Adjusted Life Years),Cabo Verde,Both,All ages,Mental disorders,Rate,2020,2096.686856198111,2762.522279675878,1519.7519492080376
+DALYs (Disability-Adjusted Life Years),Guinea,Both,All ages,Mental disorders,Rate,2020,2024.1823954987792,2758.411007768193,1451.7872473845146
+DALYs (Disability-Adjusted Life Years),Montenegro,Both,All ages,Mental disorders,Rate,2021,2046.5742406323914,2713.2005065030057,1499.4046404665046
+DALYs (Disability-Adjusted Life Years),Zimbabwe,Both,All ages,Mental disorders,Rate,2020,1711.565023735064,2326.9301841581328,1206.5035223640944
+DALYs (Disability-Adjusted Life Years),Albania,Both,All ages,Mental disorders,Rate,2021,1865.8072033473243,2441.7603748021515,1375.5535635565693
+DALYs (Disability-Adjusted Life Years),Haiti,Both,All ages,Mental disorders,Rate,2021,2259.246491500984,3016.8845790675514,1617.6406267093005
+DALYs (Disability-Adjusted Life Years),Jordan,Both,All ages,Mental disorders,Rate,2020,2254.7127653189186,2919.9259677321843,1634.788890771131
+DALYs (Disability-Adjusted Life Years),Solomon Islands,Both,All ages,Mental disorders,Rate,2020,1629.7582426919546,2225.541345742894,1157.6824841065632
+DALYs (Disability-Adjusted Life Years),Myanmar,Both,All ages,Mental disorders,Rate,2020,1429.5466548607942,1832.645702794123,1037.4964304232947
+DALYs (Disability-Adjusted Life Years),Italy,Both,All ages,Mental disorders,Rate,2020,2126.8604921441975,2756.048497501046,1564.2044623359143
+DALYs (Disability-Adjusted Life Years),Bahrain,Both,All ages,Mental disorders,Rate,2021,2341.391728146908,2983.6725346344947,1726.6149863673138
+DALYs (Disability-Adjusted Life Years),Portugal,Both,All ages,Mental disorders,Rate,2020,3068.996152382083,4032.070407138386,2229.8143104328856
+DALYs (Disability-Adjusted Life Years),Fiji,Both,All ages,Mental disorders,Rate,2020,1623.0373327823893,2193.5217432494787,1175.996353202577
+DALYs (Disability-Adjusted Life Years),Indonesia,Both,All ages,Mental disorders,Rate,2020,1391.3434425356245,1802.554739198193,1007.2689097242022
+DALYs (Disability-Adjusted Life Years),Croatia,Both,All ages,Mental disorders,Rate,2020,1961.162275446611,2567.9843652608047,1448.0265017209908
+DALYs (Disability-Adjusted Life Years),Poland,Both,All ages,Mental disorders,Rate,2020,1760.619298132828,2256.5469917552796,1299.8033412628547
+DALYs (Disability-Adjusted Life Years),Mauritania,Both,All ages,Mental disorders,Rate,2021,1749.4034727944324,2382.9159971779227,1252.4914387972717
+DALYs (Disability-Adjusted Life Years),Trinidad and Tobago,Both,All ages,Mental disorders,Rate,2021,2406.877438507338,3202.3498422645603,1765.8770346430101
+DALYs (Disability-Adjusted Life Years),Kenya,Both,All ages,Mental disorders,Rate,2020,1710.7126417358968,2218.4438539035923,1229.3013422592537
+DALYs (Disability-Adjusted Life Years),Republic of Korea,Both,All ages,Mental disorders,Rate,2021,1983.396764423519,2500.4681710930536,1505.6051837992065
+DALYs (Disability-Adjusted Life Years),Singapore,Both,All ages,Mental disorders,Rate,2021,1785.93534770578,2245.574378732071,1342.2063505189403
+DALYs (Disability-Adjusted Life Years),Panama,Both,All ages,Mental disorders,Rate,2021,1916.9455000581595,2503.978122246105,1400.3733354255712
+DALYs (Disability-Adjusted Life Years),Latvia,Both,All ages,Mental disorders,Rate,2020,1805.1673534570625,2339.276370316605,1329.7778934770204
+DALYs (Disability-Adjusted Life Years),Tunisia,Both,All ages,Mental disorders,Rate,2021,2646.219083634576,3459.925006575518,1924.2109663232004
+DALYs (Disability-Adjusted Life Years),Guinea-Bissau,Both,All ages,Mental disorders,Rate,2020,1908.2065954262068,2601.227118725473,1393.2305790073246
+DALYs (Disability-Adjusted Life Years),Andorra,Both,All ages,Mental disorders,Rate,2021,2637.9365596613006,3403.7919886912773,1938.1358277691593
+DALYs (Disability-Adjusted Life Years),Suriname,Both,All ages,Mental disorders,Rate,2021,2269.146289760894,3007.761455340905,1640.6221061477947
+DALYs (Disability-Adjusted Life Years),Venezuela (Bolivarian Republic of),Both,All ages,Mental disorders,Rate,2020,2216.8296736806396,2965.337080983386,1599.2633364070218
+DALYs (Disability-Adjusted Life Years),Botswana,Both,All ages,Mental disorders,Rate,2021,1835.3655179340963,2440.3646319612053,1314.375881212215
+DALYs (Disability-Adjusted Life Years),Nepal,Both,All ages,Mental disorders,Rate,2020,1682.9747018526139,2211.0412987574496,1241.4236991307034
+DALYs (Disability-Adjusted Life Years),Philippines,Both,All ages,Mental disorders,Rate,2021,1468.8101483666055,1912.3921098242888,1066.8738237484795
+DALYs (Disability-Adjusted Life Years),Northern Mariana Islands,Both,All ages,Mental disorders,Rate,2020,1810.1752729395807,2431.2214046764107,1319.8525262170517
+DALYs (Disability-Adjusted Life Years),Türkiye,Both,All ages,Mental disorders,Rate,2020,2257.9341309539473,2951.259337328211,1653.4601416123999
+DALYs (Disability-Adjusted Life Years),Ecuador,Both,All ages,Mental disorders,Rate,2020,2341.4817177059367,3134.408619483707,1661.2320187796192
+DALYs (Disability-Adjusted Life Years),San Marino,Both,All ages,Mental disorders,Rate,2021,2608.2778010724396,3361.8778431046,1932.8908351173711
+DALYs (Disability-Adjusted Life Years),Saint Vincent and the Grenadines,Both,All ages,Mental disorders,Rate,2020,2238.12075875046,2938.5172852979163,1613.4160571292095
+DALYs (Disability-Adjusted Life Years),Democratic Republic of the Congo,Both,All ages,Mental disorders,Rate,2021,2066.1938598336505,2826.9050595294534,1446.1647993019074
+DALYs (Disability-Adjusted Life Years),Colombia,Both,All ages,Mental disorders,Rate,2021,1945.2711652860587,2549.129528692523,1415.998209329921
+DALYs (Disability-Adjusted Life Years),Oman,Both,All ages,Mental disorders,Rate,2021,2142.7159973230764,2757.9349266033432,1557.2642625016879
+DALYs (Disability-Adjusted Life Years),Algeria,Both,All ages,Mental disorders,Rate,2020,2153.744923540185,2751.682229615772,1583.6177104738777
+DALYs (Disability-Adjusted Life Years),Spain,Both,All ages,Mental disorders,Rate,2021,2522.019567424505,3273.907000693506,1868.7219124878154
+DALYs (Disability-Adjusted Life Years),Niue,Both,All ages,Mental disorders,Rate,2021,1808.7057335095285,2447.9202126306254,1322.1429207013812
+DALYs (Disability-Adjusted Life Years),Dominican Republic,Both,All ages,Mental disorders,Rate,2021,2525.3411661807386,3388.42983170569,1812.05908821058
+DALYs (Disability-Adjusted Life Years),Chile,Both,All ages,Mental disorders,Rate,2021,2864.5737172978593,3879.060719308843,2021.0880325580845
+DALYs (Disability-Adjusted Life Years),Germany,Both,All ages,Mental disorders,Rate,2021,2270.7735183359846,2920.9743428751844,1707.5756458896683
+DALYs (Disability-Adjusted Life Years),Greenland,Both,All ages,Mental disorders,Rate,2021,2674.6912454588905,3532.7585642988934,1963.7795008728874
+DALYs (Disability-Adjusted Life Years),Trinidad and Tobago,Both,All ages,Mental disorders,Rate,2020,2293.8549600121287,3016.7449145931646,1662.8329013923237
+DALYs (Disability-Adjusted Life Years),Guam,Both,All ages,Mental disorders,Rate,2020,1779.8559735471824,2373.811815399333,1287.7055418756074
+DALYs (Disability-Adjusted Life Years),Lesotho,Both,All ages,Mental disorders,Rate,2020,1776.475271349127,2368.438707422815,1272.5430545153058
+DALYs (Disability-Adjusted Life Years),Guatemala,Both,All ages,Mental disorders,Rate,2020,2115.754717564627,2816.6086333412845,1510.7881361194059
+DALYs (Disability-Adjusted Life Years),Saint Lucia,Both,All ages,Mental disorders,Rate,2021,2428.1251286271868,3237.728333123198,1769.3994178437601
+DALYs (Disability-Adjusted Life Years),Bulgaria,Both,All ages,Mental disorders,Rate,2021,1815.7986079913978,2343.488953840756,1344.0282003421282
+DALYs (Disability-Adjusted Life Years),Samoa,Both,All ages,Mental disorders,Rate,2021,1627.40869462102,2239.03251560131,1154.9854406457566
+DALYs (Disability-Adjusted Life Years),Cyprus,Both,All ages,Mental disorders,Rate,2020,2558.4566276241953,3299.5366536317406,1863.4556392754027
+DALYs (Disability-Adjusted Life Years),Uruguay,Both,All ages,Mental disorders,Rate,2020,2491.324158798254,3321.646501616718,1786.7503178521906
+DALYs (Disability-Adjusted Life Years),Ukraine,Both,All ages,Mental disorders,Rate,2021,2328.9673948159525,3057.2391973553435,1711.648398333994
+DALYs (Disability-Adjusted Life Years),Burundi,Both,All ages,Mental disorders,Rate,2020,1676.0462352417055,2199.815492863608,1197.7572976255378
+DALYs (Disability-Adjusted Life Years),Seychelles,Both,All ages,Mental disorders,Rate,2020,1433.5663126256065,1814.0943065963424,1052.343282322923
+DALYs (Disability-Adjusted Life Years),Angola,Both,All ages,Mental disorders,Rate,2020,2191.3888677406403,2956.055368109692,1519.7135134065581
+DALYs (Disability-Adjusted Life Years),Qatar,Both,All ages,Mental disorders,Rate,2020,2110.4870498708337,2700.917083360394,1568.952332567021
+DALYs (Disability-Adjusted Life Years),Tajikistan,Both,All ages,Mental disorders,Rate,2021,1620.5162472937834,2166.062108155686,1136.3906652135615
+DALYs (Disability-Adjusted Life Years),India,Both,All ages,Mental disorders,Rate,2021,1945.6407882838957,2554.5225691710525,1424.6157091006019
+DALYs (Disability-Adjusted Life Years),Bahamas,Both,All ages,Mental disorders,Rate,2020,2405.817540594118,3179.6387190284795,1725.9861718541601
+DALYs (Disability-Adjusted Life Years),Vanuatu,Both,All ages,Mental disorders,Rate,2020,1588.0520283242997,2184.96962137694,1126.7826481215702
+DALYs (Disability-Adjusted Life Years),China,Both,All ages,Mental disorders,Rate,2020,1782.9714549577943,2316.5951876141894,1325.0563303268334
+DALYs (Disability-Adjusted Life Years),Austria,Both,All ages,Mental disorders,Rate,2020,2120.261955315373,2729.5075889852437,1559.635672128149
+DALYs (Disability-Adjusted Life Years),Belgium,Both,All ages,Mental disorders,Rate,2021,2400.534577661226,3138.3032662513374,1766.1616859024377
+DALYs (Disability-Adjusted Life Years),Malta,Both,All ages,Mental disorders,Rate,2020,2642.296710224814,3426.3820580555453,1933.4542060747165
+DALYs (Disability-Adjusted Life Years),Tunisia,Both,All ages,Mental disorders,Rate,2020,2599.452417192937,3400.109090447334,1895.0232287449965
+DALYs (Disability-Adjusted Life Years),Luxembourg,Both,All ages,Mental disorders,Rate,2021,2565.9864135852113,3277.7290637226315,1888.9953510118844
+DALYs (Disability-Adjusted Life Years),France,Both,All ages,Mental disorders,Rate,2020,2561.0965267204974,3348.8630495188117,1884.9202512235547
+DALYs (Disability-Adjusted Life Years),South Sudan,Both,All ages,Mental disorders,Rate,2021,1930.442157519756,2551.408481370945,1375.4084033992604
+DALYs (Disability-Adjusted Life Years),Somalia,Both,All ages,Mental disorders,Rate,2021,1601.3462022459114,2121.4516343701016,1143.2821679291167
+DALYs (Disability-Adjusted Life Years),Bolivia (Plurinational State of),Both,All ages,Mental disorders,Rate,2021,2333.7483543849658,3142.3837551545403,1658.125826818048
+DALYs (Disability-Adjusted Life Years),Sri Lanka,Both,All ages,Mental disorders,Rate,2020,1402.5628306091558,1791.2711630317826,1027.0471760048113
+DALYs (Disability-Adjusted Life Years),Iceland,Both,All ages,Mental disorders,Rate,2020,2615.1603712632395,3345.4117960691165,1918.822845644776
+DALYs (Disability-Adjusted Life Years),Lao People's Democratic Republic,Both,All ages,Mental disorders,Rate,2021,1344.6471089694112,1755.5476235258986,974.7696425247611
+DALYs (Disability-Adjusted Life Years),New Zealand,Both,All ages,Mental disorders,Rate,2020,2786.2804356388892,3655.3750652869344,2047.889783641831
+DALYs (Disability-Adjusted Life Years),Gambia,Both,All ages,Mental disorders,Rate,2021,1984.3412336579304,2721.317108157097,1437.0604461795483
+DALYs (Disability-Adjusted Life Years),Australia,Both,All ages,Mental disorders,Rate,2021,3079.1204740074168,3964.175063046309,2269.3642326276135
+DALYs (Disability-Adjusted Life Years),Serbia,Both,All ages,Mental disorders,Rate,2020,2029.3790115812724,2662.5996973879423,1484.4173537126599
+DALYs (Disability-Adjusted Life Years),Côte d'Ivoire,Both,All ages,Mental disorders,Rate,2020,1990.5818863079232,2709.5827721609685,1429.9673891324192
+DALYs (Disability-Adjusted Life Years),Comoros,Both,All ages,Mental disorders,Rate,2021,1963.5717539211662,2632.403200224911,1409.3467685204105
+DALYs (Disability-Adjusted Life Years),Thailand,Both,All ages,Mental disorders,Rate,2021,1415.320998325451,1825.9099669814084,1028.6688083872991
+DALYs (Disability-Adjusted Life Years),Tokelau,Both,All ages,Mental disorders,Rate,2020,1736.6587071651427,2345.515713160935,1251.9253564915243
+DALYs (Disability-Adjusted Life Years),Romania,Both,All ages,Mental disorders,Rate,2021,1772.7779521671962,2316.937596398769,1296.709144992691
+DALYs (Disability-Adjusted Life Years),Nigeria,Both,All ages,Mental disorders,Rate,2021,2030.5352216943913,2797.0262063807036,1426.1859615961027
+DALYs (Disability-Adjusted Life Years),Sweden,Both,All ages,Mental disorders,Rate,2020,2458.3863741902223,3192.287140543186,1815.0214090971576
+DALYs (Disability-Adjusted Life Years),Yemen,Both,All ages,Mental disorders,Rate,2020,1995.3627392457347,2591.00338752302,1442.3225476251023
+DALYs (Disability-Adjusted Life Years),Marshall Islands,Both,All ages,Mental disorders,Rate,2020,1640.887591792791,2236.883146522473,1173.7479090141228
+DALYs (Disability-Adjusted Life Years),Iran (Islamic Republic of),Both,All ages,Mental disorders,Rate,2021,2947.9442154282033,3924.6072329758076,2200.4647458301088
+DALYs (Disability-Adjusted Life Years),Brazil,Both,All ages,Mental disorders,Rate,2020,2820.2321468987398,3724.79686467089,2065.4981791734863
+DALYs (Disability-Adjusted Life Years),Estonia,Both,All ages,Mental disorders,Rate,2021,1792.1819705828204,2314.2514899392404,1314.7188603211923
+DALYs (Disability-Adjusted Life Years),Kiribati,Both,All ages,Mental disorders,Rate,2021,1774.0471658899967,2437.027165874879,1263.8468288665304
+DALYs (Disability-Adjusted Life Years),Syrian Arab Republic,Both,All ages,Mental disorders,Rate,2021,3067.3042280693344,4137.2722432891005,2165.9502832501844
+DALYs (Disability-Adjusted Life Years),Mali,Both,All ages,Mental disorders,Rate,2020,1837.126857034023,2536.912548784312,1355.0968249074092
+DALYs (Disability-Adjusted Life Years),Switzerland,Both,All ages,Mental disorders,Rate,2021,2722.1826846333165,3532.234691482836,2020.756744004052
+DALYs (Disability-Adjusted Life Years),Benin,Both,All ages,Mental disorders,Rate,2020,1965.996311290769,2663.7279893638342,1420.5023805498902
+DALYs (Disability-Adjusted Life Years),Sierra Leone,Both,All ages,Mental disorders,Rate,2021,2045.6246631936465,2771.422109126969,1473.2593573542315
+DALYs (Disability-Adjusted Life Years),United Arab Emirates,Both,All ages,Mental disorders,Rate,2021,2225.7620129592647,2848.9740870179785,1644.5682044882597
+DALYs (Disability-Adjusted Life Years),United Republic of Tanzania,Both,All ages,Mental disorders,Rate,2020,1598.0414135956016,2093.763963411175,1147.991845610147
+DALYs (Disability-Adjusted Life Years),Cameroon,Both,All ages,Mental disorders,Rate,2020,1967.9348781364927,2657.743843329948,1413.954528942553
+DALYs (Disability-Adjusted Life Years),Uzbekistan,Both,All ages,Mental disorders,Rate,2020,1542.6633244962313,2052.3836094730295,1102.998273622766
+DALYs (Disability-Adjusted Life Years),Gabon,Both,All ages,Mental disorders,Rate,2020,2235.829934584573,3026.2492582568552,1575.765138280453
+DALYs (Disability-Adjusted Life Years),Namibia,Both,All ages,Mental disorders,Rate,2021,1737.896073121707,2355.0458173858865,1234.0349532679356
+DALYs (Disability-Adjusted Life Years),South Africa,Both,All ages,Mental disorders,Rate,2021,2031.6923632165692,2719.4139830024737,1475.0185597092532
+DALYs (Disability-Adjusted Life Years),Palau,Both,All ages,Mental disorders,Rate,2021,1863.3161640121905,2496.3175227171446,1346.8231770095367
+DALYs (Disability-Adjusted Life Years),Tonga,Both,All ages,Mental disorders,Rate,2021,1991.3839642557991,3034.8473855657503,1344.6777612200003
+DALYs (Disability-Adjusted Life Years),Guyana,Both,All ages,Mental disorders,Rate,2021,2265.3272199121143,3028.0907394879196,1624.1878675134922
+DALYs (Disability-Adjusted Life Years),Congo,Both,All ages,Mental disorders,Rate,2020,2215.1779166285187,2980.58106573509,1562.1834516077724
+DALYs (Disability-Adjusted Life Years),Tuvalu,Both,All ages,Mental disorders,Rate,2021,1702.7371618546206,2336.396458509436,1215.424600002571
+DALYs (Disability-Adjusted Life Years),Madagascar,Both,All ages,Mental disorders,Rate,2020,1739.4839946573666,2296.022185498596,1248.9797569839004
+DALYs (Disability-Adjusted Life Years),Malawi,Both,All ages,Mental disorders,Rate,2021,1777.7560418352014,2382.8420462385475,1263.7968605603655
+DALYs (Disability-Adjusted Life Years),El Salvador,Both,All ages,Mental disorders,Rate,2021,2041.2402241626742,2716.7839449284866,1467.5432009315346
+DALYs (Disability-Adjusted Life Years),Egypt,Both,All ages,Mental disorders,Rate,2020,2209.20198674797,2929.647850400635,1574.7833400222166
+DALYs (Disability-Adjusted Life Years),Saudi Arabia,Both,All ages,Mental disorders,Rate,2021,2438.04795419584,3235.518755008861,1722.6824625982695
+DALYs (Disability-Adjusted Life Years),Brunei Darussalam,Both,All ages,Mental disorders,Rate,2020,2006.4694722588174,2557.558509579249,1490.7407853026973
+DALYs (Disability-Adjusted Life Years),Antigua and Barbuda,Both,All ages,Mental disorders,Rate,2021,2431.185325481846,3228.1550965280308,1765.5025071338503
+DALYs (Disability-Adjusted Life Years),Hungary,Both,All ages,Mental disorders,Rate,2020,1908.1365663176339,2461.656219627084,1408.6451118679108
+DALYs (Disability-Adjusted Life Years),Canada,Both,All ages,Mental disorders,Rate,2020,2258.123428322819,2927.456086357977,1656.5404755945742
+DALYs (Disability-Adjusted Life Years),Djibouti,Both,All ages,Mental disorders,Rate,2020,1721.072111757832,2244.79208911992,1258.0218912483622
+DALYs (Disability-Adjusted Life Years),Georgia,Both,All ages,Mental disorders,Rate,2020,1949.1499123128717,2531.9596487447834,1423.1650789311848
+DALYs (Disability-Adjusted Life Years),Azerbaijan,Both,All ages,Mental disorders,Rate,2021,1867.1193615439709,2448.2568458524797,1327.987343836443
+DALYs (Disability-Adjusted Life Years),Guinea,Both,All ages,Mental disorders,Rate,2021,2048.459776318958,2808.5812433504507,1480.8401529908115
+DALYs (Disability-Adjusted Life Years),Denmark,Both,All ages,Mental disorders,Rate,2021,2249.572137514455,2876.072923711238,1674.3162165897215
+DALYs (Disability-Adjusted Life Years),Ghana,Both,All ages,Mental disorders,Rate,2020,2024.1567221228627,2709.2579102627988,1463.0785267946846
+DALYs (Disability-Adjusted Life Years),Czechia,Both,All ages,Mental disorders,Rate,2021,2026.6052044766936,2650.4052544649403,1474.2676700476634
+DALYs (Disability-Adjusted Life Years),Netherlands,Both,All ages,Mental disorders,Rate,2021,3337.4868756853457,4332.004036892307,2498.4963748896876
+DALYs (Disability-Adjusted Life Years),Pakistan,Both,All ages,Mental disorders,Rate,2021,1844.8768758857345,2438.142229560337,1329.1817883716733
+DALYs (Disability-Adjusted Life Years),Eritrea,Both,All ages,Mental disorders,Rate,2021,1754.6042101855353,2318.6753681674345,1273.4379519072004
+DALYs (Disability-Adjusted Life Years),Colombia,Both,All ages,Mental disorders,Rate,2020,1912.9278609482478,2484.1681231543416,1395.1589724198511
+DALYs (Disability-Adjusted Life Years),Uganda,Both,All ages,Mental disorders,Rate,2021,1766.2482795250046,2356.4154857257618,1256.7122701595047
+DALYs (Disability-Adjusted Life Years),Malaysia,Both,All ages,Mental disorders,Rate,2021,1752.0130195099946,2255.2236247694373,1287.9901319443404
+DALYs (Disability-Adjusted Life Years),Ireland,Both,All ages,Mental disorders,Rate,2021,2705.6063068892913,3536.829223566594,1991.1256269799878
+DALYs (Disability-Adjusted Life Years),Libya,Both,All ages,Mental disorders,Rate,2021,2387.4961064879913,3065.5609067355863,1755.0777330491883
+DALYs (Disability-Adjusted Life Years),Sudan,Both,All ages,Mental disorders,Rate,2020,2150.2576161378997,2772.276346945879,1542.2665782370434
+DALYs (Disability-Adjusted Life Years),Mexico,Both,All ages,Mental disorders,Rate,2020,2171.4146037851733,2865.3778272667655,1583.9842745392975
+DALYs (Disability-Adjusted Life Years),Timor-Leste,Both,All ages,Mental disorders,Rate,2020,1262.3539740018803,1633.447350352823,903.528067083299
+DALYs (Disability-Adjusted Life Years),Peru,Both,All ages,Mental disorders,Rate,2021,2495.141649259256,3290.18640673932,1814.4600424802704
+DALYs (Disability-Adjusted Life Years),United States Virgin Islands,Both,All ages,Mental disorders,Rate,2020,2213.8595975558133,2910.077154662295,1629.1188480146045
+DALYs (Disability-Adjusted Life Years),Micronesia (Federated States of),Both,All ages,Mental disorders,Rate,2021,1735.2676671264153,2377.973857373256,1237.0325254484562
+DALYs (Disability-Adjusted Life Years),Kazakhstan,Both,All ages,Mental disorders,Rate,2021,1556.9805385479547,2052.2503807804346,1128.7974630908939
+DALYs (Disability-Adjusted Life Years),Grenada,Both,All ages,Mental disorders,Rate,2020,2284.3466458606554,3043.1664229483054,1642.4948102267301
+DALYs (Disability-Adjusted Life Years),Niger,Both,All ages,Mental disorders,Rate,2020,1764.4144049912709,2424.084901599234,1297.3746160292749
+DALYs (Disability-Adjusted Life Years),Paraguay,Both,All ages,Mental disorders,Rate,2021,2432.6318022305454,3258.821278025318,1772.3357253346492
+DALYs (Disability-Adjusted Life Years),Greece,Both,All ages,Mental disorders,Rate,2020,2835.7882866721766,3733.931370306709,2083.8375344093015
+DALYs (Disability-Adjusted Life Years),Slovakia,Both,All ages,Mental disorders,Rate,2021,1858.260712858623,2442.251200711361,1360.7039011192603
+DALYs (Disability-Adjusted Life Years),Barbados,Both,All ages,Mental disorders,Rate,2021,2427.823907810411,3208.465648915322,1785.9085802551417
+DALYs (Disability-Adjusted Life Years),Democratic People's Republic of Korea,Both,All ages,Mental disorders,Rate,2021,1724.3039190315994,2256.4052386617523,1276.087893977761
+DALYs (Disability-Adjusted Life Years),Burkina Faso,Both,All ages,Mental disorders,Rate,2021,2031.5206414738884,2767.526748436477,1460.1696840166003
+DALYs (Disability-Adjusted Life Years),Mozambique,Both,All ages,Mental disorders,Rate,2021,1823.575125645197,2431.072469805324,1296.577839245756
+DALYs (Disability-Adjusted Life Years),Afghanistan,Both,All ages,Mental disorders,Rate,2021,2025.7939818396912,2665.838272785303,1426.6306920531151
+DALYs (Disability-Adjusted Life Years),Lebanon,Both,All ages,Mental disorders,Rate,2020,2621.848480102174,3502.627288423084,1894.681545111792
+DALYs (Disability-Adjusted Life Years),American Samoa,Both,All ages,Mental disorders,Rate,2021,1784.3410633516532,2438.5160844039783,1272.3318771069376
+DALYs (Disability-Adjusted Life Years),Albania,Both,All ages,Mental disorders,Rate,2020,1853.7641500061738,2423.1390357363425,1375.9573058459134
+DALYs (Disability-Adjusted Life Years),United Kingdom,Both,All ages,Mental disorders,Rate,2020,3181.6513255057403,4181.299060573912,2342.1583297297334
+DALYs (Disability-Adjusted Life Years),Honduras,Both,All ages,Mental disorders,Rate,2021,1958.838793031442,2595.752465257045,1404.9717646878216
+DALYs (Disability-Adjusted Life Years),Mauritius,Both,All ages,Mental disorders,Rate,2020,1796.2142592313664,2386.922307256948,1298.2080554791096
+DALYs (Disability-Adjusted Life Years),North Macedonia,Both,All ages,Mental disorders,Rate,2021,1902.049747021937,2505.5058391730777,1390.5115258822675
+DALYs (Disability-Adjusted Life Years),Lithuania,Both,All ages,Mental disorders,Rate,2021,2035.2476978722486,2710.2201774242276,1472.2556967313703
+DALYs (Disability-Adjusted Life Years),Equatorial Guinea,Both,All ages,Mental disorders,Rate,2020,2142.44397757123,2900.0712343573405,1500.5578393763426
+DALYs (Disability-Adjusted Life Years),Morocco,Both,All ages,Mental disorders,Rate,2020,2225.206093119743,2831.4903483463045,1653.322805221321
+DALYs (Disability-Adjusted Life Years),Nicaragua,Both,All ages,Mental disorders,Rate,2021,2059.139170849624,2748.413828259285,1480.5232138968
