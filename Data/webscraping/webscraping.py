@@ -325,8 +325,8 @@ def store_users_in_csv(country_urls, file_as_str):
 if __name__ == "__main__":
     # tests()  # Comment this out to prove it works
 
-    # main(): Run line below for getting ratios.
-    # main()  # If you just want to use test(), make this entire line a comment
+    # Run line below for getting ratios.
+    main()
 
     # Run line below for getting the exact values of number of social media users
-    store_users_in_csv(country_urls2021, '../social_media_users_2021.csv')
+    # store_users_in_csv(country_urls2021, '../social_media_users_2021.csv')
