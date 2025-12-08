@@ -173,7 +173,7 @@ def plot_data(mental_health_file, ratios_social_media_file):
     plt.xlabel('Change in Mental Health Score')
     plt.ylabel('Frequency')
     title = ''' Distribution of Mental Health Changes: Fast vs. Slow
-    Media Uptake Countries between 2020 and 2021'''
+    Social Media Uptake Countries between 2020 and 2021'''
     plt.title(title)
     plt.legend()
     plt.grid(True, alpha=0.3)
