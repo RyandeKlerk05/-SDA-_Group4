@@ -13,6 +13,8 @@ This is the Github page for the Scientific Data Analysis group project.
          - Sub1_Sub2: Code related to subquestion 1 and 2.
             - collect_data.py: Collects and cleans the data from dataset 2.
             - plot_data.py: Plots the results from dataset 2.
+            - process_data.py: Perform experiments on the datasets.
+            - test_data.py: Compare result to statistical test to show accuracy.
     - **Plots**: The visual results from our experiments.
     - **Presentation**: All the stuff necessary for the final presentation (like conclusions, presentation points and poster).
    
