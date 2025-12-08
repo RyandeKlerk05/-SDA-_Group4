@@ -118,6 +118,8 @@ def plot_MH_score(data):
 
 if __name__ == "__main__":
     data, platform_freq = load_data()
-    plot_platform_freq(platform_freq)
-    plot_SM_use(data)
-    plot_MH_score(data)
+
+    # Uncomment the necessary tests
+    # plot_platform_freq(platform_freq)
+    # plot_SM_use(data)
+    # plot_MH_score(data)
