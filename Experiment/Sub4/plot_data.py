@@ -100,7 +100,7 @@ def run_statistical_test(mental_health_file, ratios_social_media_file):
     print('\nMann-Whitney U test: Our implementation')
     print(f'U1 = {U1:.2f}, U2 = {U2:.2f}')
 
-    print(f'Absolute z-score: {abs(z_score)}')
+    print(f'Absolute z-score: {abs(z_score):.2f}')
 
     print('\nConclusion: Hypothesis')
     if abs(z_score) <= ACCEPTANCE_VALUE:
@@ -157,29 +157,28 @@ def func(x):
 
 ''' Plotting Data'''
 def plot_data(mental_health_file, ratios_social_media_file):
-    batch_fast, batch_slow = get_batches(mental_health_file,
+    fast_batch, slow_batch = get_batches(mental_health_file,
                                          ratios_social_media_file,
-                                         testing=False)
+                                         testing=True)
 
-    users_fast = [point[1] for point in batch_fast]
-    mental_health_fast = [point[-1] for point in batch_fast]
-    users_slow = [point[1] for point in batch_slow]
-    mental_health_slow = [point[-1] for point in batch_slow]
+    plt.figure(figsize=(12, 8))
+    plt.hist(fast_batch, bins=20, alpha=0.4, color='b', edgecolor='black')
+    plt.hist(slow_batch, bins=20, alpha=0.4, color='g', edgecolor='black')
 
-    print(f'Total length: {len(batch_fast) + len(batch_slow)}')
-    plt.scatter(users_fast, mental_health_fast, color='b',
-                label='Fast uptake countries')
-    plt.scatter(users_slow, mental_health_slow, color='g',
-                label='Slow uptake countries')
-    # plt.plot(x, model, color='r')
-    plt.xlabel('Change in Total number of Social Media Users')
-    plt.ylabel('Change in Mental Gealth Score in a country')
-    title = ''' Uptake of social media vs. mental health change in different
-                countries (2020-2021)'''
+    plt.axvline(get_median(fast_batch), color='b', linestyle='dashed',
+                linewidth=1.5, label=f'Fast median: {get_median(fast_batch):.4f}')
+    plt.axvline(get_median(slow_batch), color='g', linestyle='dashed',
+                linewidth=1.5, label=f'Slow median: {get_median(slow_batch):.4f}')
+
+    plt.xlabel('Change in Mental Health Score')
+    plt.ylabel('Frequency')
+    title = ''' Distribution of Mental Health Changes: Fast vs. Slow
+    Media Uptake Countries between 2020 and 2021'''
     plt.title(title)
     plt.legend()
+    plt.grid(True, alpha=0.3)
     plt.show()
 
-# plot_data(mental_health_file, ratios_social_media_file)
+plot_data(mental_health_file, ratios_social_media_file)
 
 
