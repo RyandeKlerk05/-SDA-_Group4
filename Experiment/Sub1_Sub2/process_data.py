@@ -1,5 +1,6 @@
 from collect_data import load_data
 import numpy as np
+import pandas as pd
 
 
 # -----------------------------------------------------------------------------
@@ -48,6 +49,8 @@ def spearman_correlation(data_a, data_b):
 
 
 def spearman_p_value(data_a, data_b, num_permutations=10000):
+    """ Calculate the p-value through a permutation test. """
+
     observed = spearman_correlation(data_a, data_b)
     count = 0
 
@@ -60,15 +63,84 @@ def spearman_p_value(data_a, data_b, num_permutations=10000):
     return count / num_permutations
 
 # -----------------------------------------------------------------------------
-# This section is related to the ???: -----------
+# This section is related to the Chi-Square test: -----------------------------
+# -----------------------------------------------------------------------------
+
+
+def build_contingency_table(data):
+    """ Build a contingency table with the use of SM apps per age group. """
+
+    # Make empty table of the age groups compared to SM platforms.
+    platforms = data['Platforms'].str.split(', ').explode().unique()
+    age_groups = data['Age_Group'].cat.categories
+    contingency = pd.DataFrame(0, index=age_groups, columns=platforms)
+
+    # Count the platform frequency per age group.
+    for _, row in data.iterrows():
+        for platform in row['Platforms'].split(', '):
+            contingency.loc[row['Age_Group'], platform] += 1
+
+    return contingency
+
+
+def chi_square(contingency):
+    """ Calculate the Chi-Square statistic from the contigency table. """
+
+    # Calculate the total uses of each row/column.
+    observed = contingency.values
+    row_totals = observed.sum(axis=1).reshape(-1, 1)
+    col_totals = observed.sum(axis=0).reshape(1, -1)
+
+    # Calculate the total and compare to the expected amount.
+    grand_total = observed.sum()
+    expected = row_totals @ col_totals / grand_total
+
+    # Calculate the statistic.
+    chi2 = ((observed - expected)**2 / expected).sum()
+    return chi2
+
+
+def chi_square_p_value(data, num_permutations=1000):
+    """ Calculate the p-value through a permutation test. """
+
+    # Build the table and calculate chi score.
+    contingency_table = build_contingency_table(data)
+    observed_chi2 = chi_square(contingency_table)
+    count = 0
+
+    user_platforms = data['Platforms'].copy().values
+
+    # Calculate random permutations and see if they get a better score.
+    for _ in range(num_permutations):
+        permuted = np.random.permutation(user_platforms)
+        data_perm = data.copy()
+        data_perm['Platforms'] = permuted
+
+        # Check permutated table score.
+        perm_table = build_contingency_table(data_perm)
+        perm_chi2 = chi_square(perm_table)
+        if perm_chi2 >= observed_chi2:
+            count += 1
+
+    p_value = count / num_permutations
+    return p_value
+
+# -----------------------------------------------------------------------------
+# This section is related to the Chi-Square test: -----------------------------
 # -----------------------------------------------------------------------------
 
 
 if __name__ == "__main__":
     data, platform_freq = load_data()
 
+    # # Perform the spearman correlation tests:
     print(f"corr: {spearman_correlation(data['Age'], data['SM_Time_val'])}, "
           f"p-value: {spearman_p_value(data['Age'], data['SM_Time_val'])}")
 
     print(f"corr: {spearman_correlation(data['Age'], data['MH_Score'])},"
           f"p-value: {spearman_p_value(data['Age'], data['MH_Score'])}")
+
+    # Perform the Chi-Square statistic test:
+    contingency_table = build_contingency_table(data)
+    print(f"chi: {chi_square(contingency_table)},"
+          f"p-value: {chi_square_p_value(data)}")

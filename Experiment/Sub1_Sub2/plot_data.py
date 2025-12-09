@@ -1,8 +1,10 @@
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 import pandas as pd
+import seaborn as sns
 
 from collect_data import load_data
+from process_data import build_contingency_table
 
 
 def plot_platform_freq(platform_freq):
@@ -42,12 +44,6 @@ def plot_SM_use(data):
         categories=sm_time_order,
         ordered=True
     )
-
-    # Split the data into age groups.
-    bins = [0, 18, 25, 35, 50, 100]
-    labels = ["<18", "18-25", "25-35", "35-50", "50+"]
-    data["Age_Group"] = pd.cut(data["Age"], bins=bins,
-                               labels=labels, right=False)
 
     # Calculate the frequencies of each age group.
     freq_table = (
@@ -116,6 +112,36 @@ def plot_MH_score(data):
     plt.show()
 
 
+def plot_contingency_table(data, normalized):
+    """Plot a heatmap of platform usage by age group."""
+
+    contingency_table = build_contingency_table(data)
+
+    # Normalize by row (age group) if true.
+    if normalized:
+        plot_table = contingency_table.div(contingency_table.sum(axis=1),
+                                           axis=0)
+        fmt = ".2f"
+        cmap = "Blues"
+        title = "Relative Platform Usage by Age Group (Normalized)"
+    else:
+        plot_table = contingency_table
+        fmt = "d"
+        cmap = "Blues"
+        title = "Platform Usage by Age Group (Raw Counts)"
+
+    plt.figure(figsize=(10, 6))
+    sns.heatmap(plot_table, annot=True, fmt=fmt, cmap=cmap,
+                cbar=normalized,
+                cbar_kws={'label': 'Proportion'} if normalized else None)
+
+    plt.title(title)
+    plt.ylabel("Age Group")
+    plt.xlabel("Platform")
+    plt.tight_layout()
+    plt.show()
+
+
 if __name__ == "__main__":
     data, platform_freq = load_data()
 
@@ -123,3 +149,5 @@ if __name__ == "__main__":
     # plot_platform_freq(platform_freq)
     # plot_SM_use(data)
     # plot_MH_score(data)
+    # plot_contingency_table(data, False)  # Not normalized
+    # plot_contingency_table(data, True)  # Normalized

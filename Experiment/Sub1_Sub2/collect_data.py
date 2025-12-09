@@ -17,8 +17,14 @@ def load_data():
 
     # Retrieve and process the necessary columns.
     data['Date'] = pd.to_datetime(raw_data.iloc[:, 0]).dt.date  # Date
-    data['Age'] = raw_data.iloc[:, 1]                           # Age
     data['Gender'] = raw_data.iloc[:, 2]                        # Gender
+
+    # Retrieve the user ages and assign them an age group.
+    age_bins = [0, 18, 25, 35, 50, 200]
+    age_labels = ["<18", "18-25", "25-35", "35-50", "50+"]
+    data['Age'] = raw_data.iloc[:, 1]
+    data['Age_Group'] = pd.cut(data['Age'], bins=age_bins,
+                               labels=age_labels, right=False)
 
     # Retrieve the daily social media usage along with a mapped version.
     mapping = {
