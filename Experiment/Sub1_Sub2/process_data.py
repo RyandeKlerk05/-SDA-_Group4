@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # -----------------------------------------------------------------------------
-# This section is related to the spearman correlation calculations: -----------
+# This section is related to the Spearman correlation calculations: -----------
 # -----------------------------------------------------------------------------
 
 def rank_data(data):
@@ -25,6 +25,10 @@ def rank_data(data):
             tie_positions = np.where(inverse == i)[0]
             avg_rank = np.mean(ranks[tie_positions])
             ranks[tie_positions] = avg_rank
+
+    # Add 1 so we have 1-based ranks.
+    for i in range(len(ranks)):
+        ranks[i] += 1
 
     return ranks
 
@@ -58,6 +62,62 @@ def spearman_p_value(data_a, data_b, num_permutations=10000):
         perm = np.random.permutation(data_b)
         perm_rho = spearman_correlation(data_a, perm)
         if abs(perm_rho) >= abs(observed):
+            count += 1
+
+    return count / num_permutations
+
+
+# -----------------------------------------------------------------------------
+# This section is related to the Kruskal-Wallis calculations:  ----------------
+# -----------------------------------------------------------------------------
+
+def kruskal_wallis(groups):
+    """ Perform the Kruskal-Wallis test to obtain the H-statistic. """
+
+    # Flatten the groups (but keep track of original groups).
+    all_values = np.concatenate(groups)
+    group_labels = np.concatenate([[i] * len(g) for i, g in enumerate(groups)])
+
+    # Rank all values.
+    ranks = rank_data(all_values)
+
+    # Calculate the H statistic
+    N = len(all_values)
+    H = 0.0
+
+    for i, g in enumerate(groups):
+        n_i = len(g)
+        R_i = np.sum(ranks[group_labels == i])
+        H += (R_i ** 2) / n_i
+
+    H = (12 / (N * (N + 1))) * H - 3 * (N + 1)
+
+    return H
+
+
+def kruskal_p_value(groups, num_permutations=10000):
+    """ Calculate the p-value through a permutation test. """
+
+    # Calculate the H-statistic for the actual data.
+    observed_H = kruskal_wallis(groups)
+    combined = np.concatenate(groups)
+    lengths = [len(g) for g in groups]
+
+    count = 0
+
+    # Check to see if a better random permutation exists.
+    for _ in range(num_permutations):
+        perm = np.random.permutation(combined)
+
+        # Split into same-sized groups.
+        perm_groups = []
+        start = 0
+        for L in lengths:
+            perm_groups.append(perm[start:start+L])
+            start += L
+
+        perm_H = kruskal_wallis(perm_groups)
+        if perm_H >= observed_H:
             count += 1
 
     return count / num_permutations
@@ -125,20 +185,22 @@ def chi_square_p_value(data, num_permutations=1000):
     p_value = count / num_permutations
     return p_value
 
-# -----------------------------------------------------------------------------
-# This section is related to the Chi-Square test: -----------------------------
-# -----------------------------------------------------------------------------
-
 
 if __name__ == "__main__":
     data, platform_freq = load_data()
 
-    # # Perform the spearman correlation tests:
+    # Perform the spearman correlation tests:
     print(f"corr: {spearman_correlation(data['Age'], data['SM_Time_val'])}, "
           f"p-value: {spearman_p_value(data['Age'], data['SM_Time_val'])}")
 
     print(f"corr: {spearman_correlation(data['Age'], data['MH_Score'])},"
           f"p-value: {spearman_p_value(data['Age'], data['MH_Score'])}")
+
+    # Perform the Kruskal-Wallis test:
+    groups = [data[data["Age_Group"] == g]["MH_Score"].values
+              for g in data["Age_Group"].cat.categories]
+    print(f"H: {kruskal_wallis(groups)},"
+          f"p-value: {kruskal_p_value(groups)}")
 
     # Perform the Chi-Square statistic test:
     contingency_table = build_contingency_table(data)

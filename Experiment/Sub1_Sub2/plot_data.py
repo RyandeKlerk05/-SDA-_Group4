@@ -142,6 +142,21 @@ def plot_contingency_table(data, normalized):
     plt.show()
 
 
+def plot_MH_age_group(data):
+    """ Plots a boxplot of the MH score for different age groups. """
+
+    plt.figure(figsize=(8, 5))
+    sns.boxplot(x="Age_Group", y="MH_Score", data=data)
+    sns.stripplot(x="Age_Group", y="MH_Score", data=data,
+                  color="black", alpha=0.2)
+
+    plt.title("Mental Health Scores by Age Group")
+    plt.xlabel("Age Group")
+    plt.ylabel("Mental Health Score")
+    plt.tight_layout()
+    plt.show()
+
+
 if __name__ == "__main__":
     data, platform_freq = load_data()
 
@@ -149,5 +164,6 @@ if __name__ == "__main__":
     # plot_platform_freq(platform_freq)
     # plot_SM_use(data)
     # plot_MH_score(data)
+    # plot_MH_age_group(data)
     # plot_contingency_table(data, False)  # Not normalized
     # plot_contingency_table(data, True)  # Normalized
