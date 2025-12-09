@@ -157,6 +157,27 @@ def plot_MH_age_group(data):
     plt.show()
 
 
+def plot_avg_platform_amount(data):
+    """ Plot the average number of platforms used per age group. """
+
+    # Compute the average per age group
+    avg_counts = (
+        data.groupby("Age_Group", observed=True)["Platform_Count"]
+        .mean()
+        .reindex(data["Age_Group"].cat.categories)
+    )
+
+    plt.figure(figsize=(8, 5))
+    avg_counts.plot(kind="bar", color="skyblue", edgecolor="black")
+
+    plt.title("Average Number of Platforms Used per Age Group")
+    plt.xlabel("Age Group")
+    plt.ylabel("Average Platform Count")
+    plt.ylim(0, avg_counts.max() + 0.5)
+    plt.tight_layout()
+    plt.show()
+
+
 if __name__ == "__main__":
     data, platform_freq = load_data()
 
@@ -165,5 +186,6 @@ if __name__ == "__main__":
     # plot_SM_use(data)
     # plot_MH_score(data)
     # plot_MH_age_group(data)
+    # plot_avg_platform_amount(data)
     # plot_contingency_table(data, False)  # Not normalized
     # plot_contingency_table(data, True)  # Normalized

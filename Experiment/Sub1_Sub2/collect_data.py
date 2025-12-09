@@ -38,8 +38,9 @@ def load_data():
     data['SM_Time'] = raw_data.iloc[:, 8]
     data["SM_Time_val"] = data["SM_Time"].map(mapping)
 
-    # Retrieve the platforms and calculate the frequency of each platform.
-    data['Platforms'] = raw_data.iloc[:, 7]                     # Platforms
+    # Retrieve the platforms and calculate the amount and frequencies.
+    data['Platforms'] = raw_data.iloc[:, 7]
+    data["Platform_Count"] = data["Platforms"].str.split(", ").apply(len)
     platform_freq = (data['Platforms'].str.
                      split(', ', expand=True).stack().value_counts())
 
