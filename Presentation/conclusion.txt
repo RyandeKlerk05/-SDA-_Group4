@@ -1,0 +1,42 @@
+This file contains our results and conclusion for each subquestion (same as in the project planning document):
+
+Subquestion 1:
+  From the Spearman test showing a negative correlation (-0.298), the Chi-Square test showing that certain age groups use specific platforms
+  more (75.667), along with the figures of the raw and normalized contingency tables and daily SM use, we can see that they all imply that
+  there is a notable difference in the SM use between age groups. Specifically, younger groups make relatively a lot more use of SM and
+  often use more and a larger variety of platforms, compared to older age groups.
+
+Subquestion 2:
+  Both the moderately negative Spearman value (0.228), along with the relatively large H-statistic of the Kruskal-Wallis test (58.031),
+  imply that younger age groups more often report higher scores on the MH questions. This is further supported by the boxplot figure, 
+  showing that all three quartiles average out higher than older age groups.
+
+Subquestion 3:
+ Countries:
+  Countries with low social media exposure generally clustered around lower mental health prevalence, while countries with
+  medium to high showed slightly higher average mental health prevalence. However, there is substantial overlap between the clusters,
+  indicating that counties with similar levels of social media use can still differ considerably in mental health outcomes. K-means
+  clustering test suggests a possible association between higher social media exposure and mental health prevalence, but does not provide
+  strong evidence for clear and causal relationship. The linear regression analysis showed a slight positive relationship between social
+  media share and mental health prevalence, as indicated with the positive slope. Due to the data points being widely scattered around the
+  regression line, the association is rather weak. This  means that the exposure explains only a small part of the variation outcomes between
+  countries. Therefore, while the regression is positive the relationship is not strong enough to draw a conclusion. Spearman correlation 
+  coefficient (ρ) = 0.277. Indicating that countries with higher social media exposure tend to show slightly higher mental health prevalence,
+  however the strength of the association is limited.
+
+ Continent:
+  Overall, Europe, North America and South America have relatively higher levels of mental disorder compared to Asia, Africa and Oceania.
+  South America shows the highest DALYs  rate（Disability-Adjusted Life Years）of mental disorders. Except for Africa, all continents have a
+  high share of social media users, and South America has the highest number. For each continent, bootstrap resampling is used to estimate the
+  mean and its 95% confidence interval. a two-sample Kolmogorov–Smirnov (KS) test is applied only to continent pairs whose confidence intervals
+  overlapped, in order to test whether their distributions differ.For mental disorders, the KS tests show statistically significant distributional
+  differences for the pairs Europe vs North America,, Asia vs Africa, and Africa vs Oceania. For social media usage, however, only the comparison between
+  Europe and North America shows a statistically significant difference. These results suggest that different continents differ significantly in mental
+  health outcomes, whereas differences in social media usage are weaker excluding the clear disparity with Africa.
+
+Subquestion 4:
+  Using the datasets for the change in number of social media users and the change of mental health disorders within countries, the Mann-Whitney U test
+  (both our implementation as the implementation in scipy.stats) failed to reject the null hypothesis due to the Z-score for α = 0.05 being within the acceptance
+  interval (|z| = 0.52 < 1.96). This is probably due the dataset for the mental health changes being too small; the dataset consists of 152 countries and misses
+  countries that could influence the final results, such as the US and the UK. Our graph shows the distribution of mental health changes between fast and slow
+  social media uptake countries. 
