@@ -29,10 +29,17 @@ This is the Github page for the Scientific Data Analysis group project.
    
 
 4. How to run the code:
-   - From the base folder ('Project') run the command 'python3 ./Experiment/{subquestion}/{filename}.py' to
-     run a specific file. The used tests will run automatically afterwards and show the results/plots.
+   - From the base folder ('\-SDA-_Group4') run the command 'python3 ./Experiment/{subquestion}/{filename}.py',
+     or from the sub-question folder 'python3 ./{filename}.py', to run a specific file. The used tests will run
+     automatically afterwards and show the results/plots.
    - In the case of multiple tests (like process_data.py in Sub1_Sub2), Tests
      can be uncommented with # to disable/enable them, to run specific tests.
+
+5. Credits:
+   - Ryan: Subquestions 1 and 2
+   - Hero: Subquestion 4 and \webscraping
+   - Mingtao: Subquestion 3 (continent) and \IHME_data
+   - Maryelis: Subquestion 3 (country)
 
 6. How to use Github:
    - In the Github repo you can view all the files and folders uploaded to this repo.
