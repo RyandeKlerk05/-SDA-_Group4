@@ -29,7 +29,7 @@ This is the Github page for the Scientific Data Analysis group project.
    
 
 4. How to run the code:
-   - From the base folder ('Project') run the command 'python3 ./Experiments/{subquestion}/{filename}.py' to
+   - From the base folder ('Project') run the command 'python3 ./Experiment/{subquestion}/{filename}.py' to
      run a specific file. The used tests will run automatically afterwards and show the results/plots.
    - In the case of multiple tests (like process_data.py in Sub1_Sub2), Tests
      can be uncommented with # to disable/enable them, to run specific tests.
