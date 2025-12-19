@@ -45,7 +45,8 @@ class MannWhitney:
             # Assigning the same rank to all the tied entries
             for k in range(i, j):
                 country_data = batches[k]
-                tuple_data = (country_data[0], country_data[1], country_data[2], avg_rank)
+                tuple_data = (country_data[0], country_data[1],
+                              country_data[2], avg_rank)
             ranked.append((tuple_data))
 
         return ranked

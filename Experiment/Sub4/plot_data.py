@@ -1,4 +1,5 @@
-''' This file plots a linear regression using the data that has been collected
+'''
+    This file plots a linear regression using the data that has been collected
     in collect_data.py for sub-queston 4:
 
     Do countries that have a faster uptake of social media see a faster
@@ -7,8 +8,6 @@
     The data points represent a country with their population growth
     as their x-coordinate and their growth in social media users within a year.
     Each data point will have a specific colour, based on their continent.
-
-
 '''
 # Files
 from collect_data import CollectData4
@@ -18,15 +17,18 @@ from mann_whitney_u_test import MannWhitney
 from matplotlib import pyplot as plt
 from scipy.stats import mannwhitneyu
 
+# Make the code able run from any folder.
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parents[2]
 
-mental_health_file = '../../Data/IHME_data/mental_health_change_rate.csv'
-ratios_social_media_file = '../../Data/ratios_countries_social_media.csv'
+mental_health_file = BASE_DIR / 'Data/mental_health_change_rate.csv'
+ratios_social_media_file = BASE_DIR / 'Data/ratios_countries_social_media.csv'
 
 # Source: https://en.wikipedia.org/wiki/97.5th_percentile_point
-ACCEPTANCE_VALUE = 1.96 # Z score for alpha = 0.05
+ACCEPTANCE_VALUE = 1.96  # Z score for alpha = 0.05
 
 
-''' Functions '''
+# Functions #
 def get_median(values: list):
     ''' Returns the median of a given list of data.'''
 
@@ -43,7 +45,7 @@ def get_median(values: list):
         return (sorted_values[idx - 1] + sorted_values[idx]) / 2
 
 
-''' Collecting Data '''
+# Collecting Data #
 def get_batches(mental_health_file, ratios_social_media_file, testing=False):
 
     collect_data = CollectData4(mental_health_file, ratios_social_media_file)
@@ -56,9 +58,12 @@ def get_batches(mental_health_file, ratios_social_media_file, testing=False):
     for country, users_change, mental_health_change in data:
         users_change /= 100  # The user values are in percentages
 
-        # print(f'Country: {country}, Users: {users_change}, mental health: {mental_health_change}')
+        # Can be uncommented for testing.
+        # print(f'Country: {country}, Users: {users_change}, '
+        #       f'mental health: {mental_health_change}')
         # if users_change > 1.00 or users_change < -0.50:
-        #     print(f'Country: {country}, Users: {users_change}, mental health: {mental_health_change}')
+        #     print(f'Country: {country}, Users: {users_change}, '
+        #           f'mental health: {mental_health_change}')
 
         users_values.append(users_change)
         mental_health_values.append(mental_health_change)
@@ -71,19 +76,22 @@ def get_batches(mental_health_file, ratios_social_media_file, testing=False):
             if testing:
                 fast_uptakes.append(mental_health_values[i])
             else:
-                fast_uptakes.append(('fast uptake', users_val, mental_health_values[i]))
+                fast_uptakes.append(('fast uptake', users_val,
+                                     mental_health_values[i]))
         else:
             if testing:
                 slow_uptakes.append(mental_health_values[i])
             else:
-                slow_uptakes.append(('slow uptake', users_val, mental_health_values[i]))
+                slow_uptakes.append(('slow uptake', users_val,
+                                     mental_health_values[i]))
 
     return fast_uptakes, slow_uptakes
 
 
-''' Function for linear regression'''
+# Function for linear regression #
 def get_U1_U2_Z_score(mental_health_file, ratios_social_media_file):
-    batch_fast, batch_slow = get_batches(mental_health_file, ratios_social_media_file)
+    batch_fast, batch_slow = get_batches(mental_health_file,
+                                         ratios_social_media_file)
 
     mann_whitney = MannWhitney(batch_fast, batch_slow)
     U1, U2 = mann_whitney.CalculateU()
@@ -92,8 +100,7 @@ def get_U1_U2_Z_score(mental_health_file, ratios_social_media_file):
 
 
 def run_statistical_test(mental_health_file, ratios_social_media_file):
-    ''' Executes the Mann-Whitney U test in order to check the distribution.
-    '''
+    ''' Executes the Mann-Whitney U test in order to check the distribution '''
     U1, U2, z_score = get_U1_U2_Z_score(mental_health_file,
                                         ratios_social_media_file)
 
@@ -119,11 +126,14 @@ def run_statistical_test(mental_health_file, ratios_social_media_file):
         '''
     print(message)
 
+
 run_statistical_test(mental_health_file, ratios_social_media_file)
 
 
 def test(mental_health_file, ratios_social_media_file):
-    fast_batch, slow_batch = get_batches(mental_health_file, ratios_social_media_file, testing=True)
+    fast_batch, slow_batch = get_batches(mental_health_file,
+                                         ratios_social_media_file,
+                                         testing=True)
 
     stat, p_value = mannwhitneyu(fast_batch, slow_batch)
     print('\nMann-Whitney U Test: Scipy.stats')
@@ -155,7 +165,7 @@ def func(x):
 # model = list(map(func, x))
 
 
-''' Plotting Data'''
+# Plotting Data #
 def plot_data(mental_health_file, ratios_social_media_file):
     fast_batch, slow_batch = get_batches(mental_health_file,
                                          ratios_social_media_file,
@@ -166,9 +176,11 @@ def plot_data(mental_health_file, ratios_social_media_file):
     plt.hist(slow_batch, bins=20, alpha=0.4, color='g', edgecolor='black')
 
     plt.axvline(get_median(fast_batch), color='b', linestyle='dashed',
-                linewidth=1.5, label=f'Fast median: {get_median(fast_batch):.4f}')
+                linewidth=1.5,
+                label=f'Fast median: {get_median(fast_batch):.4f}')
     plt.axvline(get_median(slow_batch), color='g', linestyle='dashed',
-                linewidth=1.5, label=f'Slow median: {get_median(slow_batch):.4f}')
+                linewidth=1.5,
+                label=f'Slow median: {get_median(slow_batch):.4f}')
 
     plt.xlabel('Change in Mental Health Score')
     plt.ylabel('Frequency')
@@ -179,6 +191,5 @@ def plot_data(mental_health_file, ratios_social_media_file):
     plt.grid(True, alpha=0.3)
     plt.show()
 
+
 plot_data(mental_health_file, ratios_social_media_file)
-
-

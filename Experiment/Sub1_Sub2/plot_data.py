@@ -170,11 +170,17 @@ def plot_avg_platform_amount(data):
     plt.figure(figsize=(8, 5))
     avg_counts.plot(kind="bar", color="skyblue", edgecolor="black")
 
+    # Plot the global average.
+    global_avg = data["Platform_Count"].mean()
+    plt.axhline(global_avg, color='red', linestyle='--',
+                linewidth=2, label=f'Total Average: {global_avg:.2f}')
+
     plt.title("Average Number of Platforms Used per Age Group")
     plt.xlabel("Age Group")
     plt.ylabel("Average Platform Count")
     plt.ylim(0, avg_counts.max() + 0.5)
     plt.tight_layout()
+    plt.legend()
     plt.show()
 
 
@@ -186,6 +192,6 @@ if __name__ == "__main__":
     # plot_SM_use(data)
     # plot_MH_score(data)
     # plot_MH_age_group(data)
-    # plot_avg_platform_amount(data)
+    plot_avg_platform_amount(data)
     # plot_contingency_table(data, False)  # Not normalized
     # plot_contingency_table(data, True)  # Normalized

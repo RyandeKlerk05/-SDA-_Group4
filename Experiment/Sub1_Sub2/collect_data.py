@@ -1,5 +1,9 @@
 import pandas as pd
 
+# Make the code able run from any folder.
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parents[2]
+
 
 def load_data():
     """
@@ -11,7 +15,7 @@ def load_data():
     """
 
     # Extract the raw data from the csv file.
-    raw_data = pd.read_csv("Data/age_socialmedia_mentalhealth.csv")
+    raw_data = pd.read_csv(BASE_DIR / 'Data/age_socialmedia_mentalhealth.csv')
 
     data = pd.DataFrame()
 
