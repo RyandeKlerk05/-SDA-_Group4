@@ -1,6 +1,5 @@
 ''' This file collects the data for the 4th sub-question for this research: '''
 
-# import csv
 import pandas as pd
 
 

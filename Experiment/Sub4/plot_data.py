@@ -154,17 +154,6 @@ def test(mental_health_file, ratios_social_media_file):
     print(message)
 
 
-# Comment out the line below to test libary version of Mann-Whitney U test.
-# test(mental_health_file, ratios_social_media_file)
-
-
-def func(x):
-    ''' Function for Regression'''
-    pass
-
-# model = list(map(func, x))
-
-
 # Plotting Data #
 def plot_data(mental_health_file, ratios_social_media_file):
     fast_batch, slow_batch = get_batches(mental_health_file,
@@ -191,5 +180,8 @@ def plot_data(mental_health_file, ratios_social_media_file):
     plt.grid(True, alpha=0.3)
     plt.show()
 
+
+# Comment out the line below to test libary version of Mann-Whitney U test.
+# test(mental_health_file, ratios_social_media_file)
 
 plot_data(mental_health_file, ratios_social_media_file)

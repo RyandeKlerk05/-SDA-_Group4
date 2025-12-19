@@ -248,18 +248,6 @@ def extract_percentage_social_media_users_populaton(soup):
             return percentage
 
 
-# def get_ratio_social_media_users(total, social_media_users):
-#     '''Returns ratio between number of social media users in a country
-#         and the total population.
-#         Returns: value between 0 and 1.
-#     '''
-
-#     if not social_media_users or not total:
-#         return None
-
-#     return social_media_users / total
-
-
 def get_ratio_population_vs_users(country_urls: dict):
     '''Stores the percentages of population and social media users growth
         in each country.

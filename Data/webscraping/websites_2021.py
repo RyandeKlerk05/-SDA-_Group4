@@ -1,4 +1,4 @@
-# USA and UK check 
+# USA and UK check
 country_urls2021 = {
     "Abkhazia": "https://datareportal.com/reports/digital-2021-abkhazia",
     "Afghanistan": "https://datareportal.com/reports/digital-2021-afghanistan",
