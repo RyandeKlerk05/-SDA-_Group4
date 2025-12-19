@@ -13,12 +13,12 @@ This is the Github page for the Scientific Data Analysis group project.
     - **Data**: The raw data (like .csv files) we use for our experiments, and code used for the webscraping of data.
     - **Experiments**: The code used for processing and plotting the data.
          - Sub1_Sub2: Code related to subquestion 1 and 2.
-            - collect_data.py: Collects and cleans the data from dataset 2.
-            - plot_data.py: Plots the results from dataset 2.
-            - process_data.py: Perform experiments on the datasets.
+            - collect_data.py: Collects and cleans the data from the dataset.
+            - plot_data.py: Plots the results from the dataset.
+            - process_data.py: Perform experiments on the data.
             - test_data.py: Compare result to statistical test to show accuracy.
          - Sub3: Code related to subquestion 3.
-            - analysis.py: Code for the experiments on the relation of countries.
+            - country.py: Code for the experiments on the relation of countries.
             - continent.py: Code for the experiments on the relation of continents.
          - Sub4: Code related to subquestion 4.
             - collect_data.py: Collects and cleans the data.
@@ -46,5 +46,3 @@ This is the Github page for the Scientific Data Analysis group project.
   
 7. Tech support:
    - If there are any issues with editing/uploading files, try to contact **Ryan** on telegram.
-
-This file can be updated in the case more info is needed.
