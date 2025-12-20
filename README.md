@@ -25,7 +25,8 @@ This is the Github page for the Scientific Data Analysis group project.
             - plot_data.py: Plots the results from dataset.
             - mann_whitney_u_test.py: Implement the Mann-Whitney-U test to perform on the data.
     - **Plots**: The visual results from our experiments, sorted in folders per sub question.
-    - **Presentation**: All the stuff necessary for the final presentation (Like the presentation slides and conclusions).
+    - **Presentation**: All the stuff necessary for the final presentation (Like the presentation slides and
+      copies of the conclusions and limitations, which can also be found in the planning document).
    
 
 4. How to run the code:
@@ -36,12 +37,13 @@ This is the Github page for the Scientific Data Analysis group project.
      can be uncommented with # to disable/enable them, to run specific tests.
 
 5. Credits:
-   - Ryan: Subquestions 1 and 2
-   - Hero: Subquestion 4 and \webscraping
+   - Ryan: Subquestions 1 and 2, presentation planning, Github maintenance.
+   - Hero: Subquestion 4, \webscraping code and presentation planning.
    - Mingtao: Subquestion 3 (continent) and \IHME_data
-   - Maryelis: Subquestion 3 (country)
+   - Maryelis: Subquestion 3 (country.py)
+     -> (NOTE: One member left the course during this project, which explains why their section was smaller).
 
-6. How to use Github:
+6. How to use Github (for group members):
    - In the Github repo you can view all the files and folders uploaded to this repo.
    - You can click on the files and folders to view the documents.
    - By clicking on the EDIT button, you can make changes to the file. Once you are done
