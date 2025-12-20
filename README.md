@@ -11,6 +11,7 @@ This is the Github page for the Scientific Data Analysis group project.
 
 3. Github structure:
     - **Data**: The raw data (like .csv files) we use for our experiments, and code used for the webscraping of data.
+      - data_source.txt: List of all datasets used, and the links with the origin.
     - **Experiments**: The code used for processing and plotting the data.
          - Sub1_Sub2: Code related to subquestion 1 and 2.
             - collect_data.py: Collects and cleans the data from the dataset.
@@ -37,9 +38,9 @@ This is the Github page for the Scientific Data Analysis group project.
      can be uncommented with # to disable/enable them, to run specific tests.
 
 5. Credits:
-   - Ryan: Subquestions 1 and 2, presentation planning, Github maintenance.
-   - Hero: Subquestion 4, \webscraping code and presentation planning.
-   - Mingtao: Subquestion 3 (continent) and \IHME_data
+   - Ryan: Subquestions 1 and 2, presentation planning, code-cleanup and Github maintenance.
+   - Hero: Subquestion 4, \webscraping code, code-cleanup and presentation planning.
+   - Mingtao: Subquestion 3 (continent.py) and extract.py
    - Maryelis: Subquestion 3 (country.py)
      -> (NOTE: One member left the course during this project, which explains why their section was smaller).
 
