@@ -10,6 +10,9 @@ import requests
 import re
 from websites_2021 import country_urls2021
 
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parents[2]
+
 amount_str = ['hundred', 'thousand', 'million']
 
 MULTIPLIERS = {
@@ -373,9 +376,10 @@ if __name__ == "__main__":
     ratios_procedure()
 
     # Comment out the line below for running
-    dir_percentage_file = '../percentages_population_users.csv'
+    dir_percentage_file = BASE_DIR / "Data/percentages_population_users.csv"
 
     store_percentage_users_in_countries(country_urls2021, dir_percentage_file)
 
     # Run line below for getting the exact values of number of social media users
-    # store_changes_in_csv(country_urls2021, '../social_media_users_2021.csv')
+    store_changes_in_csv(country_urls2021,
+                         BASE_DIR / "Data/social_media_users_2021.csv")
