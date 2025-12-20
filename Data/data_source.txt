@@ -1,5 +1,26 @@
 This file shows the orgins of the datasets used in the project:
    - age_socialmedia_mentalhealth.csv: "https://www.kaggle.com/code/syedanwarafridi/mental-health-trends-in-the-age-of-social-media/"
-      - Used for subquestions 1 and 2.
+      - Used in subquestions 1 and 2.
       - Shows the relation between different age groups, their use of social media and their experience with mental health problems.
       - The mental health statistics are rated between 1 and 5 stars, thus it might not be the most detailed data.
+
+   IHME data: https://ourworldindata.org/grapher/share-with-mental-and-substance-disorders?tab=table&time=1990..2021&country=OWID_LIC~OWID_HIC~OWID_LMC~OWID_UMC
+   - IHME_original_file.csv:
+      - Used in subquestion 3 (continent analysis)
+   - IHME-GBD_2023_DATA-aeeaa03f-1.csv:
+      - Used in subquestion 3 (country analysis)
+   - merged_final.csv:
+      - Used in subquestion 3 (country analysis)
+
+   - digital-2021-global.pdf: https://wearesocial-cn.s3.cn-north-1.amazonaws.com.cn/common/digital2021/digital-2021-global.pdf
+      Files extracted from this dataset (webscraping.py):
+      - ratios_countries_social_media.csv:
+         - Used for subquestion 4
+      - percentages_population_users.csv:
+         - Used in subquestion 3 (continent analysis)
+      - social_media_users_2021.csv:
+         - Used in subquestion 3 (country analysis)
+
+   - mental_health_change_rate.csv:
+      - Used for subquestion 4
+      - Extracted from IHME_original_file and ratios_countries_social_media in extract.py
