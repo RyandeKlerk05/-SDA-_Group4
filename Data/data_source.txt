@@ -4,7 +4,7 @@ This file shows the orgins of the datasets used in the project:
       - Shows the relation between different age groups, their use of social media and their experience with mental health problems.
       - The mental health statistics are rated between 1 and 5 stars, thus it might not be the most detailed data.
 
-   - IHME data: https://ourworldindata.org/grapher/share-with-mental-and-substance-disorders?tab=table&time=1990..2021&country=OWID_LIC~OWID_HIC~OWID_LMC~OWID_UMC
+   - IHME data: https://vizhub.healthdata.org/gbd-results/
       - IHME_original_file.csv:
          - Used in subquestion 3 (continent analysis)
       - IHME-GBD_2023_DATA-aeeaa03f-1.csv:
